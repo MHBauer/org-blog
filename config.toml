@@ -1,0 +1,77 @@
+baseURL = "https://cocky-fermi-5e2e6e.netlify.com/"
+languageCode = "en-us"
+title = "MHBauer"
+
+theme = "gohugo-theme-ananke"
+enableEmoji = true
+copyright = "Morgan Bauer"
+description = "a website about stuff morgan thinks he knows"
+
+# make a menu so the site is navigable
+sectionPagesMenu = "main"
+
+[markup.goldmark.renderer]
+  unsafe= true
+
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[permalinks]
+  posts = "/:year/:monthname/:title/"
+  post = "post/:slug"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+
+# from https://github.com/kaushalmodi/hugo-bare-min-theme
+[Params]
+  description = "Description of the site."
+  site_logo = ""
+  github = "https://github.com/MHBauer/"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/morganbauer/"
+  mastodon = ""
+  stackoverflow = ""
+  rss = ""
+  disable_share = true
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  # background_color_class = "bg-black"
+  # featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  # recent_posts_number = 2
+
+  intro = """
+ALL PAGES HEADER
+"""
+  footer = """
+PAGE FOOTER whatever
+"""
+
+  # Custom favicon HTML ????
+  favicon = """
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+"""
+
+  custom_css = ["css/style.css"]  # assuming that you have the "static/css/style.css" file
+
+  [Params.source]
+    # url isn't going to work as the rendered markdown is not present in github.
+    url = "https://github.com/MHBauer/org-blog"   # Needed if you want to see .GitInfo for a page
+    md_dir = "content"                   # Needed if you want to get a link to Markdown source for each page
+    org_dir = ""              # Needed if you want to get a link to the Org source (e.g. when using ox-hugo!)

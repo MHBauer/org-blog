@@ -1,0 +1,667 @@
+#+STARTUP: logdone
+#+hugo_base_dir: .
+#+title: blog title
+
+* DONE About
+  CLOSED: [2020-02-06 Thu 11:30]
+:properties:
+:export_hugo_section: about
+:export_file_name: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :aliases '("urn-uuid-daefb9ac-ec67-4393-a371-db621035bbef/")
+:end:
+
+Hi, this is Morgan.
+
+Github: [[https://github.com/MHBauer/][@MHBauer]]
+Twitter: [[https://twitter.com/ibmhb][@ibmhb]]
+Linkedin: [[https://www.linkedin.com/in/morganbauer/][@morganbauer]]
+
+A long time ago, I had a site at https://www.cise.ufl.edu/~mhb/, but it's gone now.
+Some of it is [[https://web.archive.org/web/*/https://www.cise.ufl.edu/~mhb//*][still visible]] in the internet archive.
+
+I've got a [[/resume2.pdf][resume]] but it's probably better to check linkedin for more complete information.
+
+** Purpose
+
+A place to write down some stuff that has meaning to me.
+Experiences had.
+Production and consumption.
+Thoughts.
+
+
+** Equipment
+
+ - logitech c922
+ - logitech c920
+ - logitech h650e
+ 
+* timer
+
+** DONE timer test
+   CLOSED: [2020-01-30 Thu]
+:properties:
+:export_file_name: yolo-swag
+:end:
+
+#+begin_description
+what to press and how to use a timer
+#+end_description
+
+
+0:00:05 
+ - iensres
+ - iernstir
+ - riw
+ - iewiel
+ - 0:00:33
+
+
+ - 0:02:57 :: yolo
+ - 0:03:00 :: swag
+ - 0:03:09 :: meeting minuetes
+ - 0:03:15 ::
+ - 0:03:40 :: hahaha
+ - 0:03:45 ::
+ - 0:03:46 ::
+ - 0:03:47 ::
+ - 0:03:47 :: 
+
+
+
+
+
+
+** how to use org timer for something such as meeting minutes
+
+ - 0:00:00 :: yolo
+ - 0:00:37 :: ah ha
+ - 0:00:39 :: yes
+ - 0:00:40 :: amazing
+ - 0:00:41 ::
+ - 0:00:42 :: very happy
+ - 0:00:44 ::
+ - 0:00:44 ::
+ - 0:00:44 ::
+ - 0:00:44 ::
+ - 0:00:44 ::
+ - 0:00:44 :: close enough
+ - 0:00:47 :: send to irc buffer.
+
+? insert a timestamp for meeting start?
+
+C-c C-x 0     (org-timer-start)
+
+notice the timer in the mode line, as well.
+
+now, start a description list, and insert the timer as the *term*  C-c C-x .     (org-timer)
+
+```
+ - 0:00:08 ::
+```
+we end up with somethign like this^
+
+then, the usual M-<RET> works, to enter new terms. org-autolist would help to always insert one on every enter.
+
+ - 0:03:00 :: yolo
+   - 0:03:14 :: went back and inserted new operations
+   - 0:03:22 :: yes, this looks useful.
+ - 0:03:05 :: swag
+   - 0:03:06 :: sublist
+   - 0:03:10 :: sublist
+
+Inserting a time stamp
+C-u C-c !
+
+ - <2020-01-23 Thu 17:46> :: yolo
+ - yolo :: swag
+ - wemo :: wag
+
+
+[2020-03-25 Wed] 
+
+<2020-01-23 Thu>--<2020-01-25 Sat> 2d
+
+
+urn:uuid:62d5de9f-2ccb-4358-baca-2982d430fb29
+
+* TIL - Today I Learned
+should each TIL be it's own entry on the blog or one large page?
+
+** <2021-01-01 Fri> ext4 defragmenting & pacman package caching
+
+*** defrag
+e4defrag -c
+to check the amount of fragmentation
+-v for verbose details of each file.
+
+When run without -c it will perform the defragmentation.
+
+
+*** pacman cache
+not sure if pacman doesn't clean up, or what, but paccache -r from pacman-contrib.
+
+*** a thing I knew
+
+ext4 fs reserves 5% of free space for root, which on a large disk is hundreds of gigabytes.
+tune with `tune2fs -m 1 /dev/sda1` etc. it does take fractional decimal points.
+
+
+** DONE <2020-08-02 Sun 17:00>
+https://checkip.amazonaws.com/
+** DONE 2020-06-16
+   CLOSED: [2020-06-16 Tue]
+little script to pull a gpg key and import it
+
+
+curl -sSL 'https://api.github.com/users/${GITHUB_USER}/gpg_keys' | jq '.[0].raw_key' -r | gpg --import
+
+
+-o PasswordAuthentication=no
+
+can get ssh keys from github, shows public key md5 fingerprint. modern ssh uses sha256 fingerprints
+
+ssh-keygen -l -E md5 -f uvm.pub
+
+.ssh curl -sSL https://api.github.com/users/mhbauer/keys | jq '.[0].key' -r | ssh-keygen -l -E md5 -f -
+256 MD5:2e:e1:9f:bc:bf:e4:ae:b0:10:8a:27:b5:9b:63:34:e7 no comment (ED25519)
+
+the contents of this can be used by ssh-import-id to prime accounts
+
+*** TODO 
+ - github v3 implicitly 
+ - figure out github v4 api
+ - something other than jq and shell piping
+
+** TODO 2020-06-04 how to run containerd as runtime for e2e-node tests :kubernetes:
+requires some extra setup to get containerd working, such as setting it up to accept being a cri, which is a plugin, as well as cni which is all installable from the containerd repo using scripts that are available inside.
+
+: GOFLAGS='-v -tags=dockerless' make test-e2e-node PARALLELISM=1 TEST_ARGS='--kubelet-flags=--fail-swap-on=false' FOCUS="NodeFeature: ImageID" SKIP="\[Flaky\]|\[Serial\]" RUNTIME=remote CONTAINER_RUNTIME_ENDPOINT=unix:///run/containerd/containerd.sock
+
+** TODO 2020-06-02 kubernetes ci job types
+
+ some stuff I knew before, but I want to write it down and link to some of it
+
+
+ Terminology question, presubmit = pull- job, postsubmit = after push to repo (usually merge PR), periodics = ci- job? Are there any other jobs as 
+
+** TODO 2020-05-28                                               :kubernetes:
+
+If you're trying to run #kubernetes e2e-node tests with `make test-e2e-node` and you're trying to run them locally, you may need to add `TEST_ARG='--kubelet-flags=--fail-swap-on=false'` because your normal everyday dev machine probably has swap enabled.
+
+** TODO 2020-05-18                                                    :emacs:
+very productive day
+*** `keep-lines` and `flush-lines` in emacs 
+
+ by searching for `emacs select lines matching regex`
+
+ and finding
+
+ https://stackoverflow.com/questions/4214949/emacs-removing-all-lines-that-dont-match
+
+ and the most useful part, reproduced below https://stackoverflow.com/questions/4214949/emacs-removing-all-lines-that-dont-match#comment4574108_4215809
+
+ The documentation for delete-non-matching-lines explains this is an alias for keep-lines and delete-matching-lines is an alias for flush-lines
+*** pngs can be optimized with zopfli
+
+** TODO 2020-05-12
+Put contact information, keywords, and page numbers on slides.
+
+I've learned this previously, but I'm writing it down, because it happened to me again relatively recently.
+
+It is almost certain that people will see a single slide out of context and now know how to get more information from you.
+
+keywords help with context, date helps with knowing the version of a presentation, contact info helps with reaching out, page numbers helps if there are repeats, and also again with versioning.
+** TODO 2020-05-07                                                      :dns:
+A & AAAA records are IP addresses
+
+CNAME is an alias to another domain name.
+** TODO 2020-05-11
+cs.k8s.io is super useful to correlate things and search the entire kubernetes + kubernetes-sigs organizations.
+
+** TODO 2020-05-20
+The reason for anything that has ever been done by anyone at any time in any place: "it seemed like a good idea at the time".
+* TODO todo list
+
+** TODO 
+ + [-] about/contact/social media
+   - [X] github
+   - [X] twitter
+   - [X] linkedin
+   - [ ] goodreads
+   - [ ]
+ + [ ] what should be a physcially different hugo section vs a tag/category?
+ + [ ] colophon - used to make the site specifically
+ + [ ] 'uses this' - tools and such I use
+   - emacs, duh, point to org-babel init file
+   - golang
+     - https://github.com/stefanmaric/g
+       - although apparently now you can `go get` versions of go after 1.14
+     - goconvey
+     - ginkgo (but only the test runner)
+     - need to look into go-noisegate
+   - firefox
+     - add-ons / extensions
+       - ublock origin / umatrix
+       - powerclose
+       - multi-account containers
+       - auto tab discard
+       - singlefile
+       - zoom redirector
+       - enhancer for youtube
+     - about:config customizations
+       - dns over https
+         - quad9
+         - esni
+         - network.trr.mode = 2
+         - etc
+     - everything doc indexer from https://www.voidtools.com/
+       - used at first IBM job when I had a 5400 rpm laptop Hard Drive and 16G of RAM
+ + [ ] work blog
+ + [ ] personal blog
+ + [ ] articles - done immutable, no updates, may re-do, or follow-up
+ + [ ] workouts
+ + [X] can I put text on the index page for a hugo section :: with an
+      _index file name
+ + [X] media :: movies/games/tv/anime/youtube/books/links to share
+ + [ ] drinks/cocktails/spirits
+   - all the great 20th-century cocktail books
+     - Harry Johnson's "Bartender's Manual" (1900)
+     - Patrick Gavin Duffy's "Official Mixer's Manual" (1934)
+     - Crosby Gaige's "Standard Cocktail Guide" (1944)
+ + [ ] prefetching :: instantclick or turbolinks or instant.page or guess.js
+ + [ ] extract picture metadata :: iso, camera, aperture, shutter speed, gps location
+ + [ ] domain!!!
+ + [ ] theme. mf-ing website? THE BEAUTIFUL ANANKE THEME?
+   - [ ] tufte-css ? sidefootnotes? other things? color scheme?
+ + [-] pictures, what to do?
+   - [X] get them in at all, inside of the git repo
+   - [ ] http://imagequilts.com/
+   - [ ] would be nice to have something that shows the picture
+     information, a smaller version ofthe full size, the full size,
+     and the image information, fstop, shutter speed, etc.
+ + [ ] blogs I like and the features I like about them
+ + [ ] .well-known directory and content
+
+** org mode file specific improvements
+generate uuid for each insert, put into a org properties
+
+** ox-hugo improvements
+for each generated uuid in the org properties, create the alias. 
+
+
+* Articles
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: articles
+:END:
+
+Articles should be one and done type instructional or thought
+posts. No updates after being put out. Probably good to consider for
+`#Include`-ing into the main org file if it is possible to do so easily.
+
+** TODO Org to Netlify in One Step
+
+Since Netlify provides emacs in their [[https://github.com/netlify/build-image][build-image]], we can call emacs
+during our build step. We can use emacs to render to markdown with
+[[https://ox-hugo.scripter.co/][ox-hugo]]. After we have the markdown, we can render that with
+[[https://gohugo.io/][hugo]]. This can all be done server-side, so the rendered markdown does
+not have to be committed to the repo.
+
+urn:uuid:6f953af9-e7a3-4935-b9db-06bdd829353c
+
+** TODO Open source contributions
+
+It's a cycle. How do you know what to read? Other people said
+stuff. How did other people know to read your stuff? You said stuff!
+It sounds kind of slimey to be shilling your own stuff, but it's not,
+because everyone is busy with their own stuff. They are also generally
+good people and WANT to look at your stuff. They need a reminder at
+times.
+
+* DONE Media
+  CLOSED: [2020-06-24 Wed 16:30]
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: media
+:export_file_name: _index
+:END:
+
+** DONE Nemesis Games :book: 
+   CLOSED: [2020-06-17 Wed 03:24]
+:PROPERTIES:
+:export_file_name: nemesis-games
+:END:
+
+Pretty good, see my goodreads.
+
+** DONE 1917 :movie:
+   CLOSED: [2020-06-24 Wed 16:05]
+:PROPERTIES:
+:export_file_name: 1917
+:END:
+
+
+1917 last night, 7pm showing. sitting way close wasn't bad. maybe wish
+i hadn't known about the single cut nature of it. was definitely some
+cuts, but overall very close to not noticable.  ww1 movie. two guys go
+on a trip to serve orders to warn and prevent a massacre. comes close
+to happening anyway
+
+The following stream-of-consciousness remembrance of how the movie went was written the following morning:
+
+meadow, british trenches, no mans land, geran trenches, german
+artillery line, traded away my metal (bit of tin with a ribbon),
+cherry orchard, house, plane attack, deadth, trucks, bridge oeer
+river, sniper, knockout blacknesss, flares through the night in town,
+burning building, charse, flee, baby underground basement, morning
+bells of church, sneaking, flee, jump into river, river survival, dead
+men clogging up the rver, sining in a dell, moving up new trench
+lines, run out across new no mans land, deliver orders, call off the
+attack, move back into triage area, find brother, take a break, back
+to tree in meadow, look at pictures of wife and kids.
+
+urn:uuid:e0dafbb9-6974-4008-a43b-14a86fcc238c
+
+** DONE just mercy                                                    :movie:
+   CLOSED: [2020-07-13 Mon 23:49]
+:PROPERTIES:
+:export_file_name: just mercy
+:END:
+
+death row inmates
+
+Given flaws in the system, I must be against the death penalty. Among other reasons.
+
+** DONE dark waters                                                   :movie:
+   CLOSED: [2020-07-13 Mon 23:49]
+:PROPERTIES:
+:export_file_name: dark waters
+:END:
+
+dow du pont c8 teflon
+
+* Log
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: log
+:export_file_name: _index
+:END:
+
+general logs. short bits of what I have done. Experiences.
+
+** DONE Why are we here?
+   CLOSED: [2015-08-05 05:09:52 -0700]
+:properties:
+:export_file_name: 2015-08-05-why-are-we-here
+:end:
+
+I am here to work on Docker.
+
+** TODO 360 photos!
+:properties:
+:export_file_name: 2020-02-23-360-photo-tests
+:end:
+
+** TODO ffmpeg multiple video filters
+
+ffmpeg has a many options and flags. I look them up and can never remember.
+
+When dealing with video filters, do not use multiple instances of the
+flag, but separate filters by commas.
+ 
+May need to quote the entire filter string?
+
+ffmpeg -i input.mp4 -filter:v fps=fps=30, scale=1920:-2 output.mp4
+
+and NOT
+`ffmpeg -i input.mp4 -filter:v fps=fps=30 -filter:v scale=1920:-2 output.mp4`
+
+** DONE Set default flags in magit commit screen
+   CLOSED: [2019-02-19 Tue 15:46]
+:properties:
+:export_file_name: magit-default-flags
+:end:
+
+see my stackoverflow answer, reproduced below
+https://emacs.stackexchange.com/questions/3893/how-can-i-make-verbose-flag-be-enabled-by-default-in-magit-commit-screen
+
+In the versions of magit that use transient (after February 2019 or so), set the flag, and then save while still in the transient buffer.
+
+So for commit, the key sequence would be something like
+
+C-x g # start magit
+s # to stage changes
+c # start commiting
+-v # enable verbose
+C-x C-s # Save the setting persistently across sessions
+c # do the actual commit
+
+After that, next time commit is invoked, verbose will still be set. (You do not have to complete the commit, and can exit after saving with C-x C-s.)
+
+The actual default is saved in a transient/ directory in .emacs.d/.
+
+See the transient manual https://magit.vc/manual/transient.html#Saving-Values
+
+** bees knees
+
+<2020-04-20 Mon> 2x bees knees with rich honey 3:1 syrup made with raw honey and kirkland gin., re-used rinsed clear ice. one large crystal and some small ones.
+
+Increased viscosity and foaming, that I would attribute to the richness of the honey mix.
+
+rich honey mix freshly made with 1cup honey and 1/3 cup water in a pyrex measuring glass. nuked for 55 seconds, was warm, and fully dissolved after mixing with a large tablespoon.
+
+
+** DONE image testing
+   CLOSED: [2020-05-19 Tue 14:14]
+:properties:
+:export_file_name: image-tests
+:end:
+
+[[/images/sig-node-dashboard-tabs.png]]
+
+** DONE oh I have a problem, I'm in some real trouble here
+   CLOSED: [2020-08-26 Wed 13:32]
+
+epic beat saber music -> epic helltaker music -> nijisanji ID playing helltaker july 30  -> korone Doom -> hololive
+
+* Gym Classes
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: workouts
+:END:
+
+** DONE Workouts
+   CLOSED: [2020-01-01 Wed]
+:properties:
+:export_file_name: _index
+:end:
+
+This is where I record what I've been doing in the workout classes
+provided by Well-Fit Bay Area and sponsored by my employer. Along with
+the workout logs, I'll probably describe how I am feeling or sleeping
+or other physical aspects.
+
+Heart Rate, Weight, Sleeping.
+
+** DONE advanced strength fitness classes bench presses
+   CLOSED: [2020-01-27 Mon]
+:properties:
+:export_file_name: 2020-01-27-push
+:end:
+
+*** warmup
+1. pushup
+2. single chestpress
+3. bench
+
+*** workout
+bench pyramid
+
+*** cooldown
+1. alternate single
+2. burpee
+3.  diamond upshup
+
+urn:uuid:1bbbd4cf-1255-4c85-9b46-8966bef7bb17
+
+** DONE 2020-01-29 advanced strength deadlifts
+   CLOSED: [2020-01-29 Wed]
+:properties:
+:export_file_name: 2020-01-29-advanced-strength-deadlifts
+:end:
+
+ file under workouts
+
+*** warmup, x3 circuit
+ 1. glute bridge x15
+ 2. one leg deadlift x10@15lbs
+ 3. kettlebell deadlift x10@16kgx2
+
+*** Deadlift Pyramid (all weights single dumbell, x2 dumbells used)
+
+ - 40
+ - 45x10
+ - 50x10
+ - 55x8
+ - x7
+ - x5
+ - x4
+ - x3
+ - 60x3
+ - 65x3
+
+*** Cooldown x3 40sec
+ 1. glute bridge with feet on foam roller
+ 2. glute bridge on stability ball while curling legs
+ 3. reverse lunge 15lbs
+
+urn:uuid:0354e021-0bd2-4467-9347-bbb5595290a3
+
+** DONE strength format change
+   CLOSED: [2020-02-03 Mon]
+:properties:
+:export_file_name: 2020-02-03-advanced-strength-format-squats
+:end:
+
+Advanced strength 0800
+
+instead of doing the pyramid 10 reps down to 1. we've switched to "five by five"
+so, five sets of five reps. I started with the most I had previously been using
+in a pyramid, the 25kg kettlebell in the goblin hold. Moving up, I found the
+single 75lb pretty easy to squat 5 times. The goal for the month was to be
+building up endurance, which was not relevant to me, as I was just starting out
+in my first month. Two dumbbells is pretty unwieldy to raise to shoulder level
+and hold. I will have to switch to using the smith machine, or get help from
+people to hand me one to each shoulder. I'm not sure the correspondence between
+these types of squats and the leg press machine, but I do recall being able to
+press the entire stack of weights on that machine.
+
+*** Warmup x3
+Toe tap with bands alternating back and sides
+Calf raise in,middle,out
+Squat 24kg
+
+*** Workout 5x5 squat
+Dumbbell limited
+28kg (61lb)
+65lb
+75
+90 (2x45)
+100 (2x50)
+
+*** Cooldoen 40-15x4. 5 stations
+Ball to arms pass and back
+Atlas crunch. Feet up. Raise arms to toes with 5lb
+Step up toe tap. 
+3x squat + 3x jump squat
+Glute bridge hip addiction banded
+
+urn:uuid:b4d9d262-f1e5-40ed-be03-e5f99da58d7e
+
+** DONE 2020 02 05 advanced strength row
+   CLOSED: [2020-02-05 Wed]
+:properties:
+:export_file_name: 2020-02-05-advanced-strength-row
+:end:
+
+Warmup
+Fly
+Cable row
+Trx high row
+
+5x5 bent over row
+40 45 50 45 40
+
+5 stations 4x rotations , 40 20 rest.
+
+  1. Supported single arm row
+  2. inverted row on TRX
+  3. Hammer curl
+  4. Up and down plank walking
+  5. Rear Delt cable pull
+
+urn:uuid:80aadf48-6ee0-4cf8-a0d4-644ae5c0071d
+
+** DONE split squats ... ugh
+   CLOSED: [2020-02-07 Fri]
+:properties:
+:export_file_name: 2020-02-07-advanced-strength-split-squats
+:end:
+
+Very tired this morning
+
+*** Warmup
+ Reverse lunge 16kg 35lbs? X1 single goblin hold
+ Step up, 13lb x2 kettlebell 6k
+ Splitsquat
+
+***  10x5
+ Split squats
+ Did maybe 5x5, pseudo assisted with pole for balance
+
+*** Cooldown
+ Stretching and rolling
+
+urn:uuid:9ea51cad-44f9-410f-b438-7de4510fbc12
+
+** TODO bench press
+
+** TODO Deadlift
+
+started with a kettlebell, moved to single dumbbell, then double
+dumbbell, then to the cable machine. Probably going to max out on the
+cable machine next time. At which point it's back to double dumbbell,
+which is awkward, or the smith machine, also awkward.  Ends at 72.5
+each side on the cable machine. Then 75 each side with double
+dumbbells.
+
+* stuff I did
+
+** TODO Denver Block chain Week <2019-09-30 Mon>--<2019-10-03 Thu>
+https://www.eventbrite.com/e/kickoff-to-denver-blockchain-week-at-cu-tickets-73003227619#
+https://denverblockchainweek.com/
+https://www.eventbrite.com/e/hyperledger-fabric-bootcamp-tickets-71933845067#
+https://www.eventbrite.com/e/a-lign-denver-blockchain-week-event-tickets-71952555029#
+https://globalblockchainsummit.com/ Oct 3&4 only went the one day, I'm pretty sure. Some kind of funky cocktail.
+
+** TODO Truffle Con 2019
+:properties:
+:export_file_name: trufflecon2019
+:end:
+
+https://www.youtube.com/watch?v=YWjVRXeqf1g
+
+#+begin_export html
+
+<video width="1920" height="1080" controls>
+  <source src="https://s3.us.cloud-object-storage.appdomain.cloud/mhbucket/trufflecon-demo.mp4" type="video/mp4">
+</video>
+
+#+end_export
+
+
+
+* Footnotes
+​* COMMENT Local Variables                          :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:
+
+# (cl-random most-positive-fixnum)
+# (random most-positive-fixnum)
