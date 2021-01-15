@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mhbauer.com
+Token: 01854c349e3e03b1d77fbc13b5a18ce85b1c027b98ef49f491c97886763c74f5

@@ -1,0 +1,52 @@
+baseURL = "http://mhbauer.com"
+languageCode = "en-us"
+title = "Morgan Bauer's Website"
+
+theme = "ananke"
+enableEmoji = true
+copyright = "Morgan Bauer"
+description = "a website for morgan to find a job"
+
+# make a menu so the site is navigable
+#sectionPagesMenu = "main"
+
+[markup.goldmark.renderer]
+  unsafe= true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[permalinks]
+  posts = "/:year/:monthname/:title/"
+  post = "post/:slug"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+
+# from https://github.com/kaushalmodi/hugo-bare-min-theme
+[Params]
+  description = "Description of the site."
+  site_logo = ""
+  github = "https://github.com/MHBauer/"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/morganbauer/"
+  mastodon = ""
+  stackoverflow = "https://stackoverflow.com/users/59511/mhb"
+  rss = ""
+  disable_share = true
+
+  [Params.source]
+    # url isn't going to work as the rendered markdown is not present in github.
+    url = "https://github.com/MHBauer/org-blog"   # Needed if you want to see .GitInfo for a page
+    md_dir = "content"                   # Needed if you want to get a link to Markdown source for each page
+    org_dir = ""              # Needed if you want to get a link to the Org source (e.g. when using ox-hugo!)

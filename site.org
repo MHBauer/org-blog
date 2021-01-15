@@ -1,0 +1,317 @@
+#+STARTUP: logdone
+#+hugo_base_dir: .
+#+title: Morgan Bauer
+
+* Website
+
+
+** DONE Morgan Bauer's Work Resume
+CLOSED: [2021-01-15 Fri 12:50]
+:properties:
+:export_file_name: 2021-01-15-resume
+:end:
+
+Hello, this is Morgan.
+
+*** [[/resume.pdf][CLICK HERE FOR RESUME AS PDF]]
+
+Github: [[https://github.com/MHBauer/][@MHBauer]]
+
+Linkedin: [[https://www.linkedin.com/in/morganbauer/][@morganbauer]]
+
+I've got a [[/resume.pdf][Resume]] but it's probably better to [[https://www.linkedin.com/in/morganbauer/][check linkedin @morganbauer]] for more complete information.
+
+I enjoy working in open source software communities. My most recent experience is heavily based in [[https://golang.org/][golang]], but I would like to professionally work with [[https://www.rust-lang.org/][rust]].
+
+I have been fortunate enough to be accepted to speak at many public conferences all over the world, as well as internally within IBM. These presentations have not only been short conference talks, but also multi-hour workshops to deep dive into the open source software I have worked directly on, as well as basic education on developer tooling, such as git & docker.
+
+
+
+*** Conference Talks
+
+
+**** Kubecon EU 2020
+
+https://kccnceu20.sched.com/event/Zejr/a-journey-through-kubernetes-admission-controller-taxanomy-morgan-bauer-srinivas-brahmaroutu-ibm
+
+https://sched.co/Zejr
+
+https://static.sched.com/hosted_files/kccnceu20/2e/KubeCon_Virtual_2020_admission%20controllers.pdf
+
+https://youtu.be/rPLH1aTeJ5Q
+
+**** Hyperledger Global Forum 2020
+
+
+Hyperledger Fabric 101 - Swetha Repakula & Morgan Bauer, IBM
+
+https://events19.linuxfoundation.org/events/hyperledger-global-forum-2020/program/agenda/
+
+https://sched.co/Xoew
+
+
+Join Swetha and Morgan as they provide an introduction to the Hyperledger Fabric Blockchain Platform.
+They will step through a high level overview of Fabric architecture and internals.
+The introduction will also include an understanding of the project from an open source perspective so attendees are informed of how they can contribute their input, feedback and possibly code to the project.
+With that foundation, they will then guide attendees through an hands on experience with the Fabric platform.
+The workshop will involve participants standing up their own Fabric network, deploying smart contracts, and interacting with their contracts using decentralized applications.
+They will leave the tutorial with a better understanding of the properties of permissioned blockchains, and decentralized application development.
+
+Fabric is a Hyperledger project under the Linux Foundation, and forms the core of the IBM Blockchain Platform, a cloud service that provides an environment to run smart contracts.
+Come learn the basics about how blockchains work, and how they are specifically applied in Fabric.
+
+As a workshop, attendees should bring their computer to participate. This workshop requires some command line experience, and is focused on a Unix-like environment.
+
+https://static.sched.com/hosted_files/hgf20/e2/HyperledgerFabric101-HGF2020.pdf
+
+
+
+**** ApacheCon NA 2018
+Comparisons of Cloud Native Communities 
+
+https://feathercast.apache.org/2018/09/26/comparisons-of-cloud-native-communities-morgan-bauer/
+
+
+
+**** Kubecon EU 2018
+
+
+***** Building a Fault-Tolerant Resources Controller on Kubernetes - Morgan Bauer & Srinivas Brahmaroutu
+
+https://kccnceu18.sched.com/event/DqvS/building-a-fault-tolerant-custom-resources-controller-on-kubernetes-morgan-bauer-srinivas-brahmaroutu-ibm-corp-intermediate-skill-level-slides-attached
+https://schd.ws/hosted_files/kccnceu18/3b/CRDDeployments.pdf﻿
+
+***** Building a Fault-Tolerant Resources Controller on Kubernetes - Morgan Bauer & Srinivas Brahmaroutu
+
+https://www.youtube.com/watch?v=v2gAcKKDf9Y
+
+
+***** SIG Service-Catalog Deep Dive – Doug Davis, Michael Kibbe & Morgan Bauer
+
+https://www.youtube.com/watch?v=knKSSKMkdHY
+
+ SIG Service-Catalog Deep Dive – Doug Davis, Michael Kibbe, Google, & Morgan Bauer, IBM (Intermediate Skill Level) In the "SIG Service-Catalog Intro" session we provided an overview of the Open Service Broker API and the Kubernetes implementation being developed by the Service Catalog SIG. With that background, this session will go into some of the challenges we faced in making it a reality. Whether it was because we were trying to use bleeding edge features of K8s, or trying to align very radically different processing models between K8s and other OSB API Platforms, our SIG has had an interesting time trying to navigate these waters. Come learn about these these challenges and how we've chosen to solve them.
+
+***** Open Service Brokers for the CF Container Runtime - Jonathan Berkhahn & Morgan Bauer, IBM
+
+https://www.youtube.com/watch?v=tK2XIhdiVm4
+
+
+Open Service Brokers for the CF Container Runtime - Jonathan Berkhahn & Morgan Bauer, IBM
+
+The Open Service Broker API is an open standard based on the Cloud
+Foundry service broker model. The Cloud Foundry Container Runtime is
+backed by Kubernetes, a container orchestrator. The Kubernetes Service
+Catalog project is an implementation of the platform side of the
+OSBAPI running as part of Kubernetes. Come learn how to utilize the
+same brokers and services you use for applications running on CF for
+containers hosted by the new container runtime. We'll briefly cover
+the service broker architecture before demoing the set-up and
+operation of the Service Catalog on top of the CF Container Runtime
+and going over best practices for writing brokers to ensure that they
+are multi-platform compatible.
+
+**** CF Summit EU 2018
+
+https://www.youtube.com/watch?v=vMERgcYmzX4
+https://sched.co/FRyj
+
+**** CloudFoundry Summit EU 2017}
+
+***** Getting a Handle on Your Microservices: Istio and the Open Source Broker API
+
+https://www.cloudfoundry.org/trainings/getting-handle-microservices-istio-open-source-broker-api/
+
+  
+
+
+* TIL - Today I Learned
+should each TIL be it's own entry on the blog or one large page?
+
+** <2021-01-01 Fri> ext4 defragmenting & pacman package caching
+
+*** defrag
+e4defrag -c
+to check the amount of fragmentation
+-v for verbose details of each file.
+
+When run without -c it will perform the defragmentation.
+
+
+*** pacman cache
+not sure if pacman doesn't clean up, or what, but paccache -r from pacman-contrib.
+
+*** a thing I knew
+
+ext4 fs reserves 5% of free space for root, which on a large disk is hundreds of gigabytes.
+tune with `tune2fs -m 1 /dev/sda1` etc. it does take fractional decimal points.
+
+
+** <2020-08-02 Sun 17:00>
+https://checkip.amazonaws.com/
+** 2020-06-16
+little script to pull a gpg key and import it
+
+
+curl -sSL 'https://api.github.com/users/${GITHUB_USER}/gpg_keys' | jq '.[0].raw_key' -r | gpg --import
+
+
+-o PasswordAuthentication=no
+
+can get ssh keys from github, shows public key md5 fingerprint. modern ssh uses sha256 fingerprints
+
+ssh-keygen -l -E md5 -f uvm.pub
+
+.ssh curl -sSL https://api.github.com/users/mhbauer/keys | jq '.[0].key' -r | ssh-keygen -l -E md5 -f -
+256 MD5:2e:e1:9f:bc:bf:e4:ae:b0:10:8a:27:b5:9b:63:34:e7 no comment (ED25519)
+
+the contents of this can be used by ssh-import-id to prime accounts
+
+*** TODO 
+ - github v3 implicitly 
+ - figure out github v4 api
+ - something other than jq and shell piping
+
+** TODO 2020-06-04 how to run containerd as runtime for e2e-node tests :kubernetes:
+requires some extra setup to get containerd working, such as setting it up to accept being a cri, which is a plugin, as well as cni which is all installable from the containerd repo using scripts that are available inside.
+
+: GOFLAGS='-v -tags=dockerless' make test-e2e-node PARALLELISM=1 TEST_ARGS='--kubelet-flags=--fail-swap-on=false' FOCUS="NodeFeature: ImageID" SKIP="\[Flaky\]|\[Serial\]" RUNTIME=remote CONTAINER_RUNTIME_ENDPOINT=unix:///run/containerd/containerd.sock
+
+** TODO 2020-06-02 kubernetes ci job types
+
+ some stuff I knew before, but I want to write it down and link to some of it
+
+
+ Terminology question, presubmit = pull- job, postsubmit = after push to repo (usually merge PR), periodics = ci- job? Are there any other jobs as 
+
+** TODO 2020-05-28                                               :kubernetes:
+
+If you're trying to run #kubernetes e2e-node tests with `make test-e2e-node` and you're trying to run them locally, you may need to add `TEST_ARG='--kubelet-flags=--fail-swap-on=false'` because your normal everyday dev machine probably has swap enabled.
+
+** TODO 2020-05-18                                                    :emacs:
+very productive day
+*** `keep-lines` and `flush-lines` in emacs 
+
+ by searching for `emacs select lines matching regex`
+
+ and finding
+
+ https://stackoverflow.com/questions/4214949/emacs-removing-all-lines-that-dont-match
+
+ and the most useful part, reproduced below https://stackoverflow.com/questions/4214949/emacs-removing-all-lines-that-dont-match#comment4574108_4215809
+
+ The documentation for delete-non-matching-lines explains this is an alias for keep-lines and delete-matching-lines is an alias for flush-lines
+*** pngs can be optimized with zopfli
+
+** TODO 2020-05-12
+Put contact information, keywords, and page numbers on slides.
+
+I've learned this previously, but I'm writing it down, because it happened to me again relatively recently.
+
+It is almost certain that people will see a single slide out of context and now know how to get more information from you.
+
+keywords help with context, date helps with knowing the version of a presentation, contact info helps with reaching out, page numbers helps if there are repeats, and also again with versioning.
+** TODO 2020-05-07                                                      :dns:
+A & AAAA records are IP addresses
+
+CNAME is an alias to another domain name.
+** TODO 2020-05-11
+cs.k8s.io is super useful to correlate things and search the entire kubernetes + kubernetes-sigs organizations.
+
+** TODO Org to Netlify in One Step
+
+Since Netlify provides emacs in their [[https://github.com/netlify/build-image][build-image]], we can call emacs
+during our build step. We can use emacs to render to markdown with
+[[https://ox-hugo.scripter.co/][ox-hugo]]. After we have the markdown, we can render that with
+[[https://gohugo.io/][hugo]]. This can all be done server-side, so the rendered markdown does
+not have to be committed to the repo.
+
+urn:uuid:6f953af9-e7a3-4935-b9db-06bdd829353c
+
+** TODO Open source contributions
+
+It's a cycle. How do you know what to read? Other people said
+stuff. How did other people know to read your stuff? You said stuff!
+It sounds kind of slimey to be shilling your own stuff, but it's not,
+because everyone is busy with their own stuff. They are also generally
+good people and WANT to look at your stuff. They need a reminder at
+times.
+
+** Why are we here?
+
+I am here to work on Docker.
+
+
+** TODO ffmpeg multiple video filters
+
+ffmpeg has a many options and flags. I look them up and can never remember.
+
+When dealing with video filters, do not use multiple instances of the
+flag, but separate filters by commas.
+ 
+May need to quote the entire filter string?
+
+ffmpeg -i input.mp4 -filter:v fps=fps=30, scale=1920:-2 output.mp4
+
+and NOT
+`ffmpeg -i input.mp4 -filter:v fps=fps=30 -filter:v scale=1920:-2 output.mp4`
+
+** Set default flags in magit commit screen
+:properties:
+:export_file_name: magit-default-flags
+:end:
+
+see my stackoverflow answer, reproduced below
+https://emacs.stackexchange.com/questions/3893/how-can-i-make-verbose-flag-be-enabled-by-default-in-magit-commit-screen
+
+In the versions of magit that use transient (after February 2019 or so), set the flag, and then save while still in the transient buffer.
+
+So for commit, the key sequence would be something like
+
+C-x g # start magit
+s # to stage changes
+c # start commiting
+-v # enable verbose
+C-x C-s # Save the setting persistently across sessions
+c # do the actual commit
+
+After that, next time commit is invoked, verbose will still be set. (You do not have to complete the commit, and can exit after saving with C-x C-s.)
+
+The actual default is saved in a transient/ directory in .emacs.d/.
+
+See the transient manual https://magit.vc/manual/transient.html#Saving-Values
+
+* stuff I did
+
+** TODO Denver Block chain Week <2019-09-30 Mon>--<2019-10-03 Thu>
+https://www.eventbrite.com/e/kickoff-to-denver-blockchain-week-at-cu-tickets-73003227619#
+https://denverblockchainweek.com/
+https://www.eventbrite.com/e/hyperledger-fabric-bootcamp-tickets-71933845067#
+https://www.eventbrite.com/e/a-lign-denver-blockchain-week-event-tickets-71952555029#
+https://globalblockchainsummit.com/ Oct 3&4 only went the one day, I'm pretty sure. Some kind of funky cocktail.
+
+** TODO Truffle Con 2019
+:properties:
+:export_file_name: trufflecon2019
+:end:
+
+https://www.youtube.com/watch?v=YWjVRXeqf1g
+
+#+begin_export html
+
+<video width="1920" height="1080" controls>
+  <source src="https://s3.us.cloud-object-storage.appdomain.cloud/mhbucket/trufflecon-demo.mp4" type="video/mp4">
+</video>
+
+#+end_export
+
+
+
+* Footnotes
+​* COMMENT Local Variables                          :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:
+
+# (cl-random most-positive-fixnum)
+# (random most-positive-fixnum)
