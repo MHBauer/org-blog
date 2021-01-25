@@ -26,6 +26,8 @@ I enjoy working in open source software communities. My most recent experience i
 
 I have been fortunate enough to be accepted to speak at many public conferences all over the world, as well as internally within IBM. These presentations have not only been short conference talks, but also multi-hour workshops to deep dive into the open source software I have worked directly on, as well as basic education on developer tooling, such as git & docker.
 
+[[/resume.html][resume as web page]]
+
 *** Conference Talks
 
 
@@ -194,7 +196,7 @@ CLOSED: [2020-05-28 Thu 11:59]
 :export_file_name: 2020-05-28-kubernetes-e2e-tests-locally
 :end:
 
-If you're trying to run #kubernetes e2e-node tests with `make test-e2e-node` and you're trying to run them locally, you may need to add `TEST_ARG='--kubelet-flags=--fail-swap-on=false'` because your normal everyday dev machine probably has swap enabled.
+If you're trying to run #kubernetes e2e-node tests with ~make test-e2e-node~ and you're trying to run them locally, you may need to add ~TEST_ARG='--kubelet-flags=--fail-swap-on=false'~ because your normal everyday dev machine probably has swap enabled.
 
 ** TODO 2020-05-18                                                    :emacs:
 very productive day
@@ -209,6 +211,7 @@ very productive day
  and the most useful part, reproduced below https://stackoverflow.com/questions/4214949/emacs-removing-all-lines-that-dont-match#comment4574108_4215809
 
  The documentation for delete-non-matching-lines explains this is an alias for keep-lines and delete-matching-lines is an alias for flush-lines
+ 
 *** pngs can be optimized with zopfli
 
 ** TODO 2020-05-12
@@ -231,7 +234,7 @@ CLOSED: [2020-05-11 Mon 11:57]
 
 cs.k8s.io is super useful to correlate things and search the entire kubernetes + kubernetes-sigs organizations.
 
-** TODO Org to Netlify in One Step
+** TODO Org to Netlify in One Step :emacs:
 
 Since Netlify provides emacs in their [[https://github.com/netlify/build-image][build-image]], we can call emacs
 during our build step. We can use emacs to render to markdown with
@@ -249,6 +252,7 @@ It sounds kind of slimey to be shilling your own stuff, but it's not,
 because everyone is busy with their own stuff. They are also generally
 good people and WANT to look at your stuff. They need a reminder at
 times.
+
 
 ** Why are we here?
 
