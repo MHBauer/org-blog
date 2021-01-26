@@ -14,15 +14,15 @@ CLOSED: [2021-01-15 Fri 12:50]
 
 Morgan is an Open Source Software (OSS) Engineer for IBM working on Kubernetes. Morgan has extensive experience in the creation of open source software, containerized software development and complex system architecture. Morgan also enjoys working with cross-functional teams, and presenting at conferences and meetups.
 
-*** [[/resume.pdf][CLICK HERE FOR RESUME AS PDF]]
+*** [[/Morgan-Bauer-OpenSourceEngineer-resume.pdf][CLICK HERE FOR RESUME AS PDF]]
 
 Github: [[https://github.com/MHBauer/][@MHBauer]]
 
 Linkedin: [[https://www.linkedin.com/in/morganbauer/][@morganbauer]]
 
-I have a [[/resume.pdf][Resume]] and [[https://www.linkedin.com/in/morganbauer/][linkedin account @morganbauer]].
+I have a [[/Morgan-Bauer-OpenSourceEngineer-resume.pdf][Resume]] and [[https://www.linkedin.com/in/morganbauer/][linkedin account @morganbauer]].
 
-I enjoy working in open source software communities. My most recent experience is heavily based in [[https://golang.org/][golang]], but I would like to professionally work with [[https://www.rust-lang.org/][rust]].
+I enjoy working in open source software communities. My most recent experience is heavily based in *[[https://golang.org/][golang]]*, but I would like to professionally work with [[https://www.rust-lang.org/][rust]].
 
 I have been fortunate enough to be accepted to speak at many public conferences all over the world, as well as internally within IBM. These presentations have not only been short conference talks, but also multi-hour workshops to deep dive into the open source software I have worked directly on, as well as basic education on developer tooling, such as git & docker.
 
