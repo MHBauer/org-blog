@@ -125,7 +125,7 @@ https://sched.co/FRyj
 
 https://www.cloudfoundry.org/trainings/getting-handle-microservices-istio-open-source-broker-api/
 
-* DONE Digital Developer Conference - Open Source Contributor’s Conference: Become a Kubernetes contributor - Git & Github :conference:digital-conference:
+* DONE Digital Developer Conference - Open Source Contributor’s Conference: Become a Kubernetes contributor - Git & Github :conference:digital__conference:
 CLOSED: [2020-09-29 Tue 22:31]
 :properties:
 :export_file_name: ibm-git-and-github
@@ -143,9 +143,9 @@ I am not sure I ever had a goal of being published on DeveloperWorks, but I find
 :EXPORT_HUGO_SECTION: Presentations
 :END:
 
-Things where I was at the front of the room or assisting the person at the front of the room.
+I was at the front of the room or assisting the person at the front of the room.
 
-** DONE Open Source Summit China 2019 :conference:
+** DONE Open Source Summit China 2019 :conference:blockchain:hyperledger:
 CLOSED: [2019-06-26 Wed 11:20]
 :properties:
 :export_file_name: oss-china-2019
@@ -159,8 +159,8 @@ https://static.sched.com/hosted_files/kccncosschn19eng/67/OSSChina2019.pdf
 
 https://sched.co/NrvR
 
-** DONE Open Source Summit Japan 2019 :conference:
-CLOSED: [2019-07-08 Mon 23:00]
+** DONE Open Source Summit Japan 2019 :conference:blockchain:hyperledger:
+CLOSED: [2019-07-19 Fri 11:00]
 :properties:
 :export_file_name: oss-japan-2019
 :end:
@@ -177,16 +177,22 @@ https://ossalsjp19.sched.com/event/OVt3/hyperledger-fabric-101-permissioned-bloc
 
 https://sched.co/OVt3
 
-** DONE Open Source Summit North America 2019 :conference:
+** DONE Open Source Summit North America 2019 :conference:blockchain:hyperledger:
 CLOSED: [2019-08-23 Fri 14:25]
 :properties:
 :export_file_name: oss-na-2019
 :end:
 
+Smart contracts are one of the must-have features that most blockchain technologies provide today.
+Hyperledger Fabric is a permissioned blockchain platform where people write smart contracts in general purpose programming languages like Go or Javascript.
+In comparison, Ethereum invented Contract-Oriented Languages such as Solidity,
+and created the web3 JS library to interact with smart contracts.
+Progress has been made in the Hyperledger community to incorporate a similar developer experience into Fabric.
 
-
- Smart contracts are one of the must-have features that most blockchain technologies provide today. Hyperledger Fabric is a permissioned blockchain platform where people write smart contracts in general purpose programming languages like Go or Javascript. In comparison, Ethereum invented Contract-Oriented Languages such as Solidity, and created the web3 JS library to interact with smart contracts. Progress has been made in the Hyperledger community to incorporate a similar developer experience into Fabric.
-This workshop will cover how to run the EVM in Fabric, deploy sample smart contracts and how to use the web3.js library to interact with them via the Fab3 proxy. In the process attendees will also learn the basics of using Hyperledger Fabric. Developers familiar with Ethereum can easily migrate their Decentralized Apps (DApps) and are welcome to bring them to use during the workshop. This version of the workshop will be focused on the Fabric platform in general versus the EVM feature.
+This workshop will cover how to run the EVM in Fabric, deploy sample smart contracts and how to use the web3.js library to interact with them via the Fab3 proxy.
+In the process attendees will also learn the basics of using Hyperledger Fabric.
+Developers familiar with Ethereum can easily migrate their Decentralized Apps (DApps) and are welcome to bring them to use during the workshop.
+This version of the workshop will be focused on the Fabric platform in general versus the EVM feature.
 
 https://ossna19.sched.com/event/PUQG/deploy-your-first-dapp-and-solidity-smart-contracts-to-hyperledger-fabric-swetha-repakula-morgan-bauer-ibm?iframe=no&w=100%&sidebar=yes&bg=no
 
@@ -195,7 +201,7 @@ https://sched.co/PUQG
 https://static.sched.com/hosted_files/ossna19/e5/HyperledgerFabricOSS2019NA.pdf
 
 
-* TIL - Today I Learned
+* TIL - Today I Learned :TIL:
 should each TIL be it's own entry on the blog or one large page?
 
 ** <2021-01-01 Fri> ext4 defragmenting & pacman package caching
@@ -219,7 +225,7 @@ tune with `tune2fs -m 1 /dev/sda1` etc. it does take fractional decimal points.
 
 ** <2020-08-02 Sun 17:00>
 https://checkip.amazonaws.com/
-** 2020-06-16
+** download and import a github user gpg key
 little script to pull a gpg key and import it
 
 
@@ -259,7 +265,7 @@ requires some extra setup to get containerd working, such as setting it up to ac
 
  Terminology question, presubmit = pull- job, postsubmit = after push to repo (usually merge PR), periodics = ci- job? Are there any other jobs as 
 
-** DONE 2020-05-28                                               :kubernetes:
+** DONE fail-swap-on necessary for running e2e tests locally     :kubernetes:
 CLOSED: [2020-05-28 Thu 11:59]
 :properties:
 :export_file_name: 2020-05-28-kubernetes-e2e-tests-locally
@@ -295,7 +301,7 @@ keywords help with context, date helps with knowing the version of a presentatio
 A & AAAA records are IP addresses
 
 CNAME is an alias to another domain name.
-** DONE 2020-05-11
+** DONE 2020-05-11 kubernetes github organization code search    :kubernetes:
 CLOSED: [2020-05-11 Mon 11:57]
 :properties:
 :export_file_name: 2020-05-11-k8s-codesearch
