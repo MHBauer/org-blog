@@ -119,15 +119,11 @@ are multi-platform compatible.
 https://www.youtube.com/watch?v=vMERgcYmzX4
 https://sched.co/FRyj
 
-**** CloudFoundry Summit EU 2017}
+**** CloudFoundry Summit EU 2017
 
 ***** Getting a Handle on Your Microservices: Istio and the Open Source Broker API
 
 https://www.cloudfoundry.org/trainings/getting-handle-microservices-istio-open-source-broker-api/
-
-  
-
-
 
 * DONE Digital Developer Conference - Open Source Contributor’s Conference: Become a Kubernetes contributor - Git & Github :conference:
 CLOSED: [2020-09-29 Tue 22:31]
@@ -141,6 +137,63 @@ https://developer.ibm.com/conferences/oscc_become_a_kubernetes_contributor/git_a
 
 As an aside, the 'IBM Developer' website was previously known as 'IBM DeveloperWorks', which I found to be a useful resource over time, especially during University days.
 I am not sure I ever had a goal of being published on DeveloperWorks, but I find it very cool to have achieved it.
+
+* Presentations
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: Presentations
+:END:
+
+Things where I was at the front of the room or assisting the person at the front of the room.
+
+** DONE Open Source Summit China 2019
+CLOSED: [2019-06-26 Wed 11:20]
+:properties:
+:export_file_name: oss-china-2019
+:end:
+
+https://kccncosschn19eng.sched.com/
+
+https://kccncosschn19eng.sched.com/event/NrvR/creating-your-first-smart-contract-on-hyperledger-fabric-swetha-repakula-morgan-bauer-ibm?iframe=no
+
+https://static.sched.com/hosted_files/kccncosschn19eng/67/OSSChina2019.pdf
+
+https://sched.co/NrvR
+
+** DONE Open Source Summit Japan 2019
+CLOSED: [2019-07-08 Mon 23:00]
+:properties:
+:export_file_name: oss-japan-2019
+:end:
+
+When one thinks of blockchain, the technologies that come to mind are Bitcoin, and Ethereum.
+Much of the knowledge has been focused on public networks,
+and less is known about the permissioned blockchain platforms out there like Hyperledger Fabric.
+Fabric is an open source blockchain platform that has been designed for corporate use cases.
+Morgan and Swetha will go through the architecture of Hyperledger Fabric detailing the transaction work flow,
+consensus mechanism and smart contract capabilities.
+Attendees will leave with knowledge about the Hyperledger Consortium as well as details into the Fabric platform.
+
+https://ossalsjp19.sched.com/event/OVt3/hyperledger-fabric-101-permissioned-blockchain-platforms-swetha-repakula-morgan-bauer-ibm?iframe=no&w=100%&sidebar=yes&bg=no
+
+https://sched.co/OVt3
+
+** DONE Open Source Summit North America 2019
+CLOSED: [2019-08-23 Fri 14:25]
+:properties:
+:export_file_name: oss-na-2019
+:end:
+
+
+
+ Smart contracts are one of the must-have features that most blockchain technologies provide today. Hyperledger Fabric is a permissioned blockchain platform where people write smart contracts in general purpose programming languages like Go or Javascript. In comparison, Ethereum invented Contract-Oriented Languages such as Solidity, and created the web3 JS library to interact with smart contracts. Progress has been made in the Hyperledger community to incorporate a similar developer experience into Fabric.
+This workshop will cover how to run the EVM in Fabric, deploy sample smart contracts and how to use the web3.js library to interact with them via the Fab3 proxy. In the process attendees will also learn the basics of using Hyperledger Fabric. Developers familiar with Ethereum can easily migrate their Decentralized Apps (DApps) and are welcome to bring them to use during the workshop. This version of the workshop will be focused on the Fabric platform in general versus the EVM feature.
+
+https://ossna19.sched.com/event/PUQG/deploy-your-first-dapp-and-solidity-smart-contracts-to-hyperledger-fabric-swetha-repakula-morgan-bauer-ibm?iframe=no&w=100%&sidebar=yes&bg=no
+
+https://sched.co/PUQG
+
+https://static.sched.com/hosted_files/ossna19/e5/HyperledgerFabricOSS2019NA.pdf
+
 
 * TIL - Today I Learned
 should each TIL be it's own entry on the blog or one large page?
