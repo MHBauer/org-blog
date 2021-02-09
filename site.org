@@ -20,6 +20,8 @@ Github: [[https://github.com/MHBauer/][@MHBauer]]
 
 Linkedin: [[https://www.linkedin.com/in/morganbauer/][@morganbauer]]
 
+[[https://developer.ibm.com/profiles/mbauer/][IBM Developer Profile]]
+
 I have a [[/Morgan-Bauer-OpenSourceEngineer-resume.pdf][Resume]] and [[https://www.linkedin.com/in/morganbauer/][linkedin account @morganbauer]].
 
 I enjoy working in open source software communities. My most recent experience is heavily based in *[[https://golang.org/][golang]]*, but I would like to professionally work with [[https://www.rust-lang.org/][rust]].
