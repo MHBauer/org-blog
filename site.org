@@ -126,6 +126,20 @@ https://www.cloudfoundry.org/trainings/getting-handle-microservices-istio-open-s
   
 
 
+
+* DONE Digital Developer Conference - Open Source Contributor’s Conference: Become a Kubernetes contributor - Git & Github :conference:
+CLOSED: [2020-09-29 Tue 22:31]
+:properties:
+:export_file_name: ibm-git-and-github
+:end:
+
+https://developer.ibm.com/conferences/oscc_become_a_kubernetes_contributor/
+
+https://developer.ibm.com/conferences/oscc_become_a_kubernetes_contributor/git_and_github/
+
+As an aside, the 'IBM Developer' website was previously known as 'IBM DeveloperWorks', which I found to be a useful resource over time, especially during University days.
+I am not sure I ever had a goal of being published on DeveloperWorks, but I find it very cool to have achieved it.
+
 * TIL - Today I Learned
 should each TIL be it's own entry on the blog or one large page?
 
