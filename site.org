@@ -204,7 +204,7 @@ https://static.sched.com/hosted_files/ossna19/e5/HyperledgerFabricOSS2019NA.pdf
 * TIL - Today I Learned :TIL:
 should each TIL be it's own entry on the blog or one large page?
 
-** DONE <2018-01-04 Thu> Nikon exif field for memory card
+** DONE Nikon exif field for memory card
 CLOSED: [2018-01-04 Thu]
 :properties:
 :export_file_name: nikon-exif-field-for-slot
@@ -219,7 +219,8 @@ On a D500, which has two card slots, an XQD and an SD, this data is recorded in 
 
 [[https://photo.stackexchange.com/q/98778/87152][relevant stackoverflow link]]
 
-** <2021-01-01 Fri> ext4 defragmenting & pacman package caching
+** DONE ext4 defragmenting & pacman package caching
+CLOSED: [2021-01-01 Fri]
 
 *** defrag
 e4defrag -c
@@ -263,7 +264,7 @@ the contents of this can be used by ssh-import-id to prime accounts
  - figure out github v4 api
  - something other than jq and shell piping
 
-** DONE 2020-06-04 how to run containerd as runtime for e2e-node tests :kubernetes:
+** DONE how to run containerd as runtime for e2e-node tests      :kubernetes:
 CLOSED: [2020-06-04 Thu 11:59]
 :properties:
 :export_file_name: 2020-05-28-kubernetes-e2e-tests-dockerless-cri
@@ -316,7 +317,7 @@ keywords help with context, date helps with knowing the version of a presentatio
 A & AAAA records are IP addresses
 
 CNAME is an alias to another domain name.
-** DONE 2020-05-11 kubernetes github organization code search    :kubernetes:
+** DONE kubernetes github organization code search               :kubernetes:
 CLOSED: [2020-05-11 Mon 11:57]
 :properties:
 :export_file_name: 2020-05-11-k8s-codesearch
