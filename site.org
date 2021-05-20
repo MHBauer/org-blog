@@ -204,6 +204,21 @@ https://static.sched.com/hosted_files/ossna19/e5/HyperledgerFabricOSS2019NA.pdf
 * TIL - Today I Learned :TIL:
 should each TIL be it's own entry on the blog or one large page?
 
+** DONE <2018-01-04 Thu> Nikon exif field for memory card
+CLOSED: [2018-01-04 Thu]
+:properties:
+:export_file_name: nikon-exif-field-for-slot
+:end:
+
+I learned this from owning a Nikon D500 and trying to figure out why the checksums of files on the SD Card and XQD card don't match.
+
+On a D500, which has two card slots, an XQD and an SD, this data is recorded in the file under the exif field 'Memory Card Number'.
+
+=0= is the value for the XQD Card slot.
+=1= is the value for the SD Card slot.
+
+[[https://photo.stackexchange.com/q/98778/87152][relevant stackoverflow link]]
+
 ** <2021-01-01 Fri> ext4 defragmenting & pacman package caching
 
 *** defrag
