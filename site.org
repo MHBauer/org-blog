@@ -202,7 +202,30 @@ https://static.sched.com/hosted_files/ossna19/e5/HyperledgerFabricOSS2019NA.pdf
 
 
 * TIL - Today I Learned :TIL:
-should each TIL be it's own entry on the blog or one large page?
+I want to write down what I've learned so I don't forget and include where I learned it to know what I use as sources.
+
+** DONE windows explorer cli correspondence
+CLOSED: [2021-05-19 Wed]
+:properties:
+:export_file_name: windows-explorer-cli-correspondence
+:END:
+
+found in an old hn post while cleaning up tabs
+
+can type cmd in explorer location bar and it will launch a console in the same location.
+
+while in a console can type =start .= and it will open explorer in a location
+
+amusing to write this now, as it is from a several moth old hacker news topic. I was cleaning up some tabs.
+
+Source:
+https://news.ycombinator.com/item?id=26165237
+
+=Windows has some nice tricks to connect the UI to the cmdline. For instance you can type "cmd" or "powershell" in the breadcrumbs-bar of an Explorer window, and it opens a terminal at that filesystem location (and the other way around, "start ." on the command line opens an Explorer window in the current directory.=
+from https://news.ycombinator.com/user?id=flohofwoe
+
+Thank you.
+
 
 ** DONE Nikon exif field for memory card
 CLOSED: [2018-01-04 Thu]
