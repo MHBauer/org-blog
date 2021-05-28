@@ -204,6 +204,18 @@ https://static.sched.com/hosted_files/ossna19/e5/HyperledgerFabricOSS2019NA.pdf
 * TIL - Today I Learned :TIL:
 I want to write down what I've learned so I don't forget and include where I learned it to know what I use as sources.
 
+** DONE OBS Capture Transform Settings
+CLOSED: [2021-05-27 Thu 17:47]
+:properties:
+:export_file_name: reset-obs-transform-capture
+:END:
+
+=Sometimes you may see the red dot in the upper left corner of your preview with a game capture source, select the source in your list and press Ctrl+R then Ctrl+f to reset than fit the source to your preview screen.=
+from
+https://obsproject.com/wiki/Game-Capture-Guide
+
+The keys correspond to "Reset Transform" followed by "Fit to Screen".
+
 ** DONE windows explorer cli correspondence
 CLOSED: [2021-05-19 Wed]
 :properties:
