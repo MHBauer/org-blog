@@ -449,6 +449,47 @@ https://www.youtube.com/watch?v=YWjVRXeqf1g
 
 #+end_export
 
+* DONE Net Present Value Calculation :finance:
+CLOSED: [2021-06-15 Tue 22:12]
+:properties:
+:export_file_name: npv-calculations
+:end:
+
+I keep relearning this, so I want to make it clear to myself.
+
+The general concept is to know whether it is a good idea to pay a lump sum now, or to pay installments over time. When there is a discount for paying now, what is the equivalent interest rate to paying over time. There are times where paying the lump sum, being a guaranteed return, is significant enough that it makes sense to pay now if possible rather than paying later.
+
+Time value of money. Money in the future is not worth as much as money now. This is primarily due to inflation. Thus it's good to know what the effective interest rate is on any payment, so you can compare with interest rates you think you can get elsewhere.
+
+Life example would be car insurance, which I have encountered billed in 6 month increments, but with an installment fee, or some other structure of costs where the two six-month payments do not equal to the 12 month payment. When it is the same cost at both times, that indicates that there is some rate of return.
+
+Another case would be the case of some 'lifetime' subscription. This is also a net present value, in the form of a perpetuity.
+
+If a magazine subscription is 29.95 a year, and you can get 2 years for 55.95, and three years for 79.95, and a lifetime for 295.00.
+
+Let's start with the lifetime perpetuity, as that is actually the simplest calctulation. =PV = PMT / i= In our case, we assume the payment PMT is the yearly cost, 29.95, and the Present Value PV is 295. Rearranging =i = PV/PMT= leading us to an interest rate of =29.95/295 = 0.101525423729 = 10.15%=. This means that buying now for 295 is worth the equivalent of payments of 29.95, forever.
+
+This is easily checked:
+  1. 295 * 10.15% = 29.95, we pay 29.95 for a year, and have 295 left to grow interest on.
+  2. the calculation does not differ.
+
+An alternative form considers the inflation in terms of a growing sum, due to inflation. =PV = PMT / (i - g)=, rearranging similarly, =(i - g) = PMT/PV=. We can see that inflation comes directly out of the normal interest rate, meaning =i= must be that much higher to offset.
+
+Back to auto insurance, what's the rate on a 1200$ payment executed in two payments of 700$ on the half year? This is equivalent to an "annuity due" calulation. To calculate, we figure out how much the annuity due is worth in the future, and discount it back to the present. The formulation is much uglier and more difficult to calculate i for, and in spreadsheets is done with =IRR=, although you can 'guess and check' with =PV=.
+
+For this case, we do =pv(guess%, 2,-700,0,1)= and adjust the guess percentage until it equals 1200.
+
+With =IRR= we need to calculate the difference between the lump sum and the partial payment for our first period, and then use the partial payments after.  =irr({500,-700},1)= which spits out 40%, and we can plug back into the PV function as our 'guess' to get the result of 1200. That's a 40% interest charge for paying partially! Better to get that money together and pay it now!
+
+A more reasonable calculation would have perhaps a 2.5% payment fee per installment. This would be solving =pv(guess%, 2,-615,0,1)= for the percentage to be equal to 1200. Or =irr({585,-615})= which comes out to 5%. A 2.5% fee costs you 5% in opportunity interest. You pay 1230 for 1200 of coverage. The simple interest rate of 2.5% becomes 5% as you need a higher interest rate on your remaining money in the time period to make up for what you don't have to make interest on.
+
+ 1. 1200 - 615 = 585 left
+ 2. I need 615 in the future from my 585 now, so I need =x * 585 = 615=, =x = 5.128%=. over my period. This is the simple rate done semi-annually, so an anual rate would be very slightly higher.
+
+
+
+# https://www.omnicalculator.com/finance/perpetuity this one is pretty good with lockable pieces for PMT and PV
+
 
 
 * Footnotes
