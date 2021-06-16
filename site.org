@@ -491,6 +491,13 @@ A more reasonable calculation would have perhaps a 2.5% payment fee per installm
 # https://www.omnicalculator.com/finance/perpetuity this one is pretty good with lockable pieces for PMT and PV
 
 
+* TODO Blogs I admire
+ - https://eli.thegreenplace.net/ I've probably been reading it on and off for ten years, and I wish I had started blogging back then as well. Started while looking at the sicp exercises. Wish to post / had posted my own...
+ - https://randomascii.wordpress.com definitely been reading since "generate all the floats and round trip them"
+ - http://regex.info/blog/ - awesome photo medatada, cool photos from japan, wordpress, dark color theme, exhaustive rundown of "now you have two problems" http://regex.info/blog/2006-09-15/247
+ - https://www.gwern.net/ - don't read it much, if at all, and never regularly, but I like the design. What about the design? popover preview, footnotes/sidenotes
+ - https://jvns.ca/ - simple explanations os stuff, nice pictures. 
+
 
 * Footnotes
 ​* COMMENT Local Variables                          :ARCHIVE:
