@@ -358,7 +358,7 @@ CLOSED: [2020-05-11 Mon 11:57]
 :export_file_name: 2020-05-11-k8s-codesearch
 :end:
 
-cs.k8s.io is super useful to correlate things and search the entire kubernetes + kubernetes-sigs organizations.
+[[https://cs.k8s.io][cs.k8s.io]] is super useful to correlate things and search the entire kubernetes + kubernetes-sigs organizations.
 
 ** TODO Org to Netlify in One Step :emacs:
 
