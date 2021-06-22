@@ -310,6 +310,23 @@ Kubernetes Camp | Sat. Nov. 18 , 01:00pm - 01:30pm in Nolita Hub Room (on 17th F
 
 https://web.archive.org/web/20171214091138/http://www.opencamps.org/2017/events
 
+** DONE CloudFoundry Summit EU 2017
+CLOSED: [2017-10-12 Thu 13:00]
+:properties:
+:export_file_name: cfeu-2017
+:end:
+
+*** Getting a Handle on Your Microservices: Istio and the Open Source Broker API
+
+https://www.cloudfoundry.org/trainings/getting-handle-microservices-istio-open-source-broker-api/
+
+https://www.youtube.com/watch?v=v7ZQcu1dwlQ
+
+**** prompt
+Istio provides a proxy to load balance, control traffic behavior, and distribute access controls between services. The Kubernetes Service Catalog, an Open Service Broker implementation, provisions services that are consumed by applications within a cluster. This presentation will demonstrate how Istio can be utilized to proxy communication between a Kubernetes-hosted application and a Service Catalog provisioned database.
+
+The demonstration will start with two applications bound to the same service broker provided service. We will then leverage Istio to direct traffic between the applications from the web and show the metrics that it is collecting. This will demonstrate how Istio can provide value without any modifications to an application.
+
 * TIL - Today I Learned :TIL:
 I want to write down what I've learned so I don't forget and include where I learned it to know what I use as sources.
 
