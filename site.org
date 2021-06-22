@@ -10,6 +10,8 @@
 CLOSED: [2021-01-15 Fri 12:50]
 :properties:
 :export_file_name: 2021-01-15-resume
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :aliases '("/urn-uuid-87c17f82-5b10-41b6-8bf1-8a00477ad2cc")
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :url "resume"
 :end:
 
 Morgan is an Open Source Software (OSS) Engineer for IBM working on Kubernetes. Morgan has extensive experience in the creation of open source software, containerized software development and complex system architecture. Morgan also enjoys working with cross-functional teams, and presenting at conferences and meetups.
@@ -28,10 +30,9 @@ I enjoy working in open source software communities. My most recent experience i
 
 I have been fortunate enough to be accepted to speak at many public conferences all over the world, as well as internally within IBM. These presentations have not only been short conference talks, but also multi-hour workshops to deep dive into the open source software I have worked directly on, as well as basic education on developer tooling, such as git & docker.
 
-[[/resume.html][resume as web page]]
+[[/resume-text.html][resume as text web page]]
 
 *** Conference Talks
-
 
 **** Kubecon EU 2020
 
