@@ -302,6 +302,14 @@ I met many talented developers at [[https://ccoss.org/][the first Cumbre de Cont
 Recorded session https://www.youtube.com/watch?v=xja5Gl8tcco
 A tweet https://mobile.twitter.com/ibmhb/status/1172887048618938368
 
+** DONE NYC OpenCamps
+CLOSED: [2017-11-18 Sat 13:30]
+Comparisons of Cloud Native Communities - with Swetha Repakula
+
+Kubernetes Camp | Sat. Nov. 18 , 01:00pm - 01:30pm in Nolita Hub Room (on 17th Floor)
+
+https://web.archive.org/web/20171214091138/http://www.opencamps.org/2017/events
+
 * TIL - Today I Learned :TIL:
 I want to write down what I've learned so I don't forget and include where I learned it to know what I use as sources.
 
