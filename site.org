@@ -174,6 +174,21 @@ As a workshop, attendees should bring their computer to participate. This worksh
 
 *** slides
 https://static.sched.com/hosted_files/hgf20/e2/HyperledgerFabric101-HGF2020.pdf
+** DONE Truffle Con 2019 - Keynote Live Demo of Truffle Petshop backed by Hyperledger Fabric EVM Chaincode
+CLOSED: [2019-08-03 Sat 09:40]
+:properties:
+:export_file_name: trufflecon-2019
+:end:
+
+https://www.youtube.com/watch?v=0F9P9PEeHPQ
+
+The recording did not catch the screen, so here is a
+backup demonstration video
+https://www.youtube.com/watch?v=YWjVRXeqf1g
+
+https://sched.co/SlYV
+
+This was surprsingly eventful due to thunderstorms up and down the west coast interfering with air travel.
 
 ** DONE Open Source Summit China 2019 :conference:blockchain:hyperledger:
 CLOSED: [2019-06-26 Wed 11:20]
@@ -511,21 +526,6 @@ https://denverblockchainweek.com/
 https://www.eventbrite.com/e/hyperledger-fabric-bootcamp-tickets-71933845067#
 https://www.eventbrite.com/e/a-lign-denver-blockchain-week-event-tickets-71952555029#
 https://globalblockchainsummit.com/ Oct 3&4 only went the one day, I'm pretty sure. Some kind of funky cocktail.
-
-** TODO Truffle Con 2019
-:properties:
-:export_file_name: trufflecon2019
-:end:
-
-https://www.youtube.com/watch?v=YWjVRXeqf1g
-
-#+begin_export html
-
-<video width="1920" height="1080" controls>
-  <source src="https://s3.us.cloud-object-storage.appdomain.cloud/mhbucket/trufflecon-demo.mp4" type="video/mp4">
-</video>
-
-#+end_export
 
 * DONE Net Present Value Calculation :finance:
 CLOSED: [2021-06-15 Tue 22:12]
