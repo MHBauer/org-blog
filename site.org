@@ -573,7 +573,8 @@ A more reasonable calculation would have perhaps a 2.5% payment fee per installm
  - https://randomascii.wordpress.com definitely been reading since "generate all the floats and round trip them"
  - http://regex.info/blog/ - awesome photo medatada, cool photos from japan, wordpress, dark color theme, exhaustive rundown of "now you have two problems" http://regex.info/blog/2006-09-15/247
  - https://www.gwern.net/ - don't read it much, if at all, and never regularly, but I like the design. What about the design? popover preview, footnotes/sidenotes
- - https://jvns.ca/ - simple explanations os stuff, nice pictures. 
+ - https://jvns.ca/ - simple explanations of stuff, nice pictures.
+ - https://qntm.org/ - came for destroying the earth, revisited every now and then for things like hatetris and most recently the incredibly disturbing Lena/MMAcevedo short story.
 
 * TODO uses this
 
