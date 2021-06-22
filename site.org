@@ -33,7 +33,7 @@ I have been fortunate enough to be accepted to speak at many public conferences 
 [[/resume-text.html][resume as text web page]]
 
 *** Conference Talks
-
+[[https://mhbauer.com/presentations/][See the record of public conference talks I have given]]
 **** Kubecon EU 2020
 
 https://kccnceu20.sched.com/event/Zejr/a-journey-through-kubernetes-admission-controller-taxanomy-morgan-bauer-srinivas-brahmaroutu-ibm
