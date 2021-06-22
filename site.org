@@ -202,6 +202,17 @@ https://sched.co/PUQG
 https://static.sched.com/hosted_files/ossna19/e5/HyperledgerFabricOSS2019NA.pdf
 
 
+** DONE CCOSS :conference:blockchain:hyperledger:
+CLOSED: [2019-09-15 Sun 10:35]
+:properties:
+:export_file_name: ccoss-mexico-2019
+:end:
+
+I met many talented developers at [[https://ccoss.org/][the first Cumbre de Contribuidores de Open Source Software]]. This was almost immediately after ApacheCon Las Vegas, so I ended up hanging out with some of the people I met there, such as Sam Ruby and Myrle Krantz. I not only got to present, I went to a workshop.
+
+Recorded session https://www.youtube.com/watch?v=xja5Gl8tcco
+A tweet https://mobile.twitter.com/ibmhb/status/1172887048618938368
+
 * TIL - Today I Learned :TIL:
 I want to write down what I've learned so I don't forget and include where I learned it to know what I use as sources.
 
