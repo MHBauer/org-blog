@@ -133,6 +133,48 @@ https://www.cloudfoundry.org/trainings/getting-handle-microservices-istio-open-s
 
 I was at the front of the room or assisting the person at the front of the room.
 
+** DONE Kubecon EU 2020
+CLOSED: [2020-08-19 Wed 17:40]
+:properties:
+:export_file_name: kceu-2020
+:end:
+
+https://kccnceu20.sched.com/event/Zejr/a-journey-through-kubernetes-admission-controller-taxanomy-morgan-bauer-srinivas-brahmaroutu-ibm
+
+https://sched.co/Zejr
+
+https://static.sched.com/hosted_files/kccnceu20/2e/KubeCon_Virtual_2020_admission%20controllers.pdf
+
+https://youtu.be/rPLH1aTeJ5Q
+
+** DONE Hyperledger Global Forum 2020 - Workshop: Hyperledger Fabric 101 :conference:workshop:blockchain:hyperledger:
+CLOSED: [2020-03-05 Thu 09:00]
+:properties:
+:export_file_name: hgf-2020
+:end:
+
+Hyperledger Fabric 101 - Swetha Repakula & Morgan Bauer, IBM
+
+https://events19.linuxfoundation.org/events/hyperledger-global-forum-2020/program/agenda/
+
+https://sched.co/Xoew
+
+*** Workshop Prompt
+Join Swetha and Morgan as they provide an introduction to the Hyperledger Fabric Blockchain Platform.
+They will step through a high level overview of Fabric architecture and internals.
+The introduction will also include an understanding of the project from an open source perspective so attendees are informed of how they can contribute their input, feedback and possibly code to the project.
+With that foundation, they will then guide attendees through an hands on experience with the Fabric platform.
+The workshop will involve participants standing up their own Fabric network, deploying smart contracts, and interacting with their contracts using decentralized applications.
+They will leave the tutorial with a better understanding of the properties of permissioned blockchains, and decentralized application development.
+
+Fabric is a Hyperledger project under the Linux Foundation, and forms the core of the IBM Blockchain Platform, a cloud service that provides an environment to run smart contracts.
+Come learn the basics about how blockchains work, and how they are specifically applied in Fabric.
+
+As a workshop, attendees should bring their computer to participate. This workshop requires some command line experience, and is focused on a Unix-like environment.
+
+*** slides
+https://static.sched.com/hosted_files/hgf20/e2/HyperledgerFabric101-HGF2020.pdf
+
 ** DONE Open Source Summit China 2019 :conference:blockchain:hyperledger:
 CLOSED: [2019-06-26 Wed 11:20]
 :properties:
