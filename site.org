@@ -276,6 +276,8 @@ https://static.sched.com/hosted_files/kccncosschn19eng/67/OSSChina2019.pdf
 
 https://sched.co/NrvR
 
+https://www.youtube.com/watch?v=U_0X11A16ts
+
 ** DONE ApacheCon Las Vegas - OpenWhisk Bootcamp       :conference:container:
 CLOSED: [2019-09-09 Mon 09:00]
 :properties:
