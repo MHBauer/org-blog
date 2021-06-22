@@ -244,7 +244,7 @@ https://developer.ibm.com/conferences/oscc_become_a_kubernetes_contributor/git_a
 As an aside, the 'IBM Developer' website was previously known as 'IBM DeveloperWorks', which I found to be a useful resource over time, especially during University days.
 I am not sure I ever had a goal of being published on DeveloperWorks, but I find it very cool to have achieved it.
 
-** DONE   ApacheCon Las Vegas - OpenWhisk Bootcamp :conference:container:
+** DONE ApacheCon Las Vegas - OpenWhisk Bootcamp       :conference:container:
 CLOSED: [2019-09-09 Mon 09:00]
 :properties:
 :export_file_name: apachecon-las-vegas-2019
@@ -267,7 +267,8 @@ Starting with getting the development environment set up, it’ll move onto crea
 
 Welcome to the future of cloud development, you’ll never want to manage another server again!
 
-** DONE CCOSS :conference:blockchain:hyperledger:
+
+** DONE CCOSS - Cumbre de Contribuidores de Open Source Software - Guadalajara, Mexico :conference:blockchain:hyperledger:
 CLOSED: [2019-09-15 Sun 10:35]
 :properties:
 :export_file_name: ccoss-mexico-2019
