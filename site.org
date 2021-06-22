@@ -622,6 +622,13 @@ from amazon
 50 were 3.38 as an "add on item" in 2012
 100 were 6.99 in 2012 january
 
+* TODO embed videos
+#+begin_export html
+<video width="1920" height="1080" controls>
+  <source src="trufflecon-demo.mp4" type="video/mp4">
+</video>
+#+end_export
+
 
 * Footnotes
 ​* COMMENT Local Variables                          :ARCHIVE:
