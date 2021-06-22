@@ -34,7 +34,19 @@ I have been fortunate enough to be accepted to speak at many public conferences 
 
 *** Conference Talks
 [[https://mhbauer.com/presentations/][See the record of public conference talks I have given]]
-**** Kubecon EU 2020
+
+* Presentations
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: Presentations
+:END:
+
+I was at the front of the room or assisting the person at the front of the room.
+
+** DONE KubeCon EU 2020
+CLOSED: [2020-08-19 Wed 17:40]
+:properties:
+:export_file_name: kceu-2020
+:end:
 
 https://kccnceu20.sched.com/event/Zejr/a-journey-through-kubernetes-admission-controller-taxanomy-morgan-bauer-srinivas-brahmaroutu-ibm
 
@@ -126,10 +138,6 @@ https://sched.co/FRyj
 
 https://www.cloudfoundry.org/trainings/getting-handle-microservices-istio-open-source-broker-api/
 
-* Presentations
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: Presentations
-:END:
 
 I was at the front of the room or assisting the person at the front of the room.
 
