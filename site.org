@@ -256,12 +256,18 @@ https://ossalsjp19.sched.com/event/OVt3/hyperledger-fabric-101-permissioned-bloc
 
 https://sched.co/OVt3
 
-** DONE Open Source Summit China 2019     :conference:blockchain:hyperledger:
+** DONE Open Source Summit China 2019     :conference:blockchain:hyperledger:kubernetes:container:
 CLOSED: [2019-06-26 Wed 11:20]
 :properties:
 :export_file_name: oss-china-2019
 :end:
 
+*** kubernetes contributor summit
+https://sched.co/RBRp
+
+SIG Service Catalog members will go over the process of building Kubernetes extensions: building, testing, repos, and more. 
+
+*** Combo KubeCon CloudNativeCon OpenSourceSummit
 https://kccncosschn19eng.sched.com/
 
 https://kccncosschn19eng.sched.com/event/NrvR/creating-your-first-smart-contract-on-hyperledger-fabric-swetha-repakula-morgan-bauer-ibm?iframe=no
