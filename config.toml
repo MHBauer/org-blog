@@ -2,7 +2,7 @@ baseURL = "https://mhbauer.com"
 languageCode = "en-us"
 title = "Morgan Bauer's Website"
 
-theme = "ananke"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 enableEmoji = true
 copyright = "Morgan Bauer"
 description = "a website for morgan to find a job"
