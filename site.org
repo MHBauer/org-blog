@@ -37,6 +37,12 @@ I have been fortunate enough to be accepted to speak at many public conferences 
 *** Conference Talks
 [[/presentations][See the record of public conference talks I have given]]
 
+All the public sessions collected in [[https://www.youtube.com/watch?v=v7ZQcu1dwlQ&list=PL-yrdTisOWwUSfEUaKN4XarSa1YOaee6U][convenient youtube playlist]].
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL-yrdTisOWwUSfEUaKN4XarSa1YOaee6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
 * Presentations
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: presentations
