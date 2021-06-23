@@ -20,7 +20,8 @@ description = "a website for morgan to find a job"
 
 [permalinks]
   posts = "/:year/:monthname/:title/"
-  post = "post/:slug"
+  # hugo won't paginate without this, case must match, was Presentations
+  presentations = "/:year/:title/"
 
 [privacy]
   [privacy.googleAnalytics]
@@ -44,6 +45,8 @@ description = "a website for morgan to find a job"
   stackoverflow = "https://stackoverflow.com/users/59511/mhb"
   rss = ""
   disable_share = true
+  # hugo seems to operate by the principle of yolo, let's surprise people
+  mainSections = ["posts","presentations"]
 
   [Params.source]
     # url isn't going to work as the rendered markdown is not present in github.

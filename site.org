@@ -1,5 +1,7 @@
 #+STARTUP: logdone
 #+hugo_base_dir: .
+# explicitly set section to the default value
+#+hugo_section: posts
 #+title: Morgan Bauer
 
 * Website
@@ -33,11 +35,11 @@ I have been fortunate enough to be accepted to speak at many public conferences 
 [[/resume-text.html][resume as text web page]]
 
 *** Conference Talks
-[[https://mhbauer.com/presentations/][See the record of public conference talks I have given]]
+[[/presentations][See the record of public conference talks I have given]]
 
 * Presentations
 :PROPERTIES:
-:EXPORT_HUGO_SECTION: Presentations
+:EXPORT_HUGO_SECTION: presentations
 :END:
 
 I was at the front of the room or assisting the person at the front of the room.
