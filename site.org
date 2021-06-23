@@ -42,106 +42,20 @@ I have been fortunate enough to be accepted to speak at many public conferences 
 
 I was at the front of the room or assisting the person at the front of the room.
 
-** DONE KubeCon EU 2020
-CLOSED: [2020-08-19 Wed 17:40]
+** DONE Digital Developer Conference - Open Source Contributor’s Conference: Become a Kubernetes contributor - Git & Github :conference:digital__conference:
+CLOSED: [2020-09-29 Tue 22:31]
 :properties:
-:export_file_name: kceu-2020
+:export_file_name: ibm-git-and-github
 :end:
 
-https://kccnceu20.sched.com/event/Zejr/a-journey-through-kubernetes-admission-controller-taxanomy-morgan-bauer-srinivas-brahmaroutu-ibm
+https://developer.ibm.com/conferences/oscc_become_a_kubernetes_contributor/
 
-https://sched.co/Zejr
+https://developer.ibm.com/conferences/oscc_become_a_kubernetes_contributor/git_and_github/
 
-https://static.sched.com/hosted_files/kccnceu20/2e/KubeCon_Virtual_2020_admission%20controllers.pdf
+As an aside, the 'IBM Developer' website was previously known as 'IBM DeveloperWorks', which I found to be a useful resource over time, especially during University days.
+I am not sure I ever had a goal of being published on DeveloperWorks, but I find it very cool to have achieved it.
 
-https://youtu.be/rPLH1aTeJ5Q
-
-**** Hyperledger Global Forum 2020
-
-
-Hyperledger Fabric 101 - Swetha Repakula & Morgan Bauer, IBM
-
-https://events19.linuxfoundation.org/events/hyperledger-global-forum-2020/program/agenda/
-
-https://sched.co/Xoew
-
-
-Join Swetha and Morgan as they provide an introduction to the Hyperledger Fabric Blockchain Platform.
-They will step through a high level overview of Fabric architecture and internals.
-The introduction will also include an understanding of the project from an open source perspective so attendees are informed of how they can contribute their input, feedback and possibly code to the project.
-With that foundation, they will then guide attendees through an hands on experience with the Fabric platform.
-The workshop will involve participants standing up their own Fabric network, deploying smart contracts, and interacting with their contracts using decentralized applications.
-They will leave the tutorial with a better understanding of the properties of permissioned blockchains, and decentralized application development.
-
-Fabric is a Hyperledger project under the Linux Foundation, and forms the core of the IBM Blockchain Platform, a cloud service that provides an environment to run smart contracts.
-Come learn the basics about how blockchains work, and how they are specifically applied in Fabric.
-
-As a workshop, attendees should bring their computer to participate. This workshop requires some command line experience, and is focused on a Unix-like environment.
-
-https://static.sched.com/hosted_files/hgf20/e2/HyperledgerFabric101-HGF2020.pdf
-
-
-
-**** ApacheCon NA 2018
-Comparisons of Cloud Native Communities 
-
-https://feathercast.apache.org/2018/09/26/comparisons-of-cloud-native-communities-morgan-bauer/
-
-
-
-**** Kubecon EU 2018
-
-
-***** Building a Fault-Tolerant Resources Controller on Kubernetes - Morgan Bauer & Srinivas Brahmaroutu
-
-https://kccnceu18.sched.com/event/DqvS/building-a-fault-tolerant-custom-resources-controller-on-kubernetes-morgan-bauer-srinivas-brahmaroutu-ibm-corp-intermediate-skill-level-slides-attached
-https://schd.ws/hosted_files/kccnceu18/3b/CRDDeployments.pdf﻿
-
-***** Building a Fault-Tolerant Resources Controller on Kubernetes - Morgan Bauer & Srinivas Brahmaroutu
-
-https://www.youtube.com/watch?v=v2gAcKKDf9Y
-
-
-***** SIG Service-Catalog Deep Dive – Doug Davis, Michael Kibbe & Morgan Bauer
-
-https://www.youtube.com/watch?v=knKSSKMkdHY
-
- SIG Service-Catalog Deep Dive – Doug Davis, Michael Kibbe, Google, & Morgan Bauer, IBM (Intermediate Skill Level) In the "SIG Service-Catalog Intro" session we provided an overview of the Open Service Broker API and the Kubernetes implementation being developed by the Service Catalog SIG. With that background, this session will go into some of the challenges we faced in making it a reality. Whether it was because we were trying to use bleeding edge features of K8s, or trying to align very radically different processing models between K8s and other OSB API Platforms, our SIG has had an interesting time trying to navigate these waters. Come learn about these these challenges and how we've chosen to solve them.
-
-***** Open Service Brokers for the CF Container Runtime - Jonathan Berkhahn & Morgan Bauer, IBM
-
-https://www.youtube.com/watch?v=tK2XIhdiVm4
-
-
-Open Service Brokers for the CF Container Runtime - Jonathan Berkhahn & Morgan Bauer, IBM
-
-The Open Service Broker API is an open standard based on the Cloud
-Foundry service broker model. The Cloud Foundry Container Runtime is
-backed by Kubernetes, a container orchestrator. The Kubernetes Service
-Catalog project is an implementation of the platform side of the
-OSBAPI running as part of Kubernetes. Come learn how to utilize the
-same brokers and services you use for applications running on CF for
-containers hosted by the new container runtime. We'll briefly cover
-the service broker architecture before demoing the set-up and
-operation of the Service Catalog on top of the CF Container Runtime
-and going over best practices for writing brokers to ensure that they
-are multi-platform compatible.
-
-**** CF Summit EU 2018
-
-https://www.youtube.com/watch?v=vMERgcYmzX4
-https://sched.co/FRyj
-
-**** CloudFoundry Summit EU 2017
-
-***** Getting a Handle on Your Microservices: Istio and the Open Source Broker API
-
-https://www.cloudfoundry.org/trainings/getting-handle-microservices-istio-open-source-broker-api/
-
-
-I was at the front of the room or assisting the person at the front of the room.
-
-** DONE Kubecon EU 2020
+** DONE KubeCon EU 2020
 CLOSED: [2020-08-19 Wed 17:40]
 :properties:
 :export_file_name: kceu-2020
@@ -182,53 +96,108 @@ As a workshop, attendees should bring their computer to participate. This worksh
 
 *** slides
 https://static.sched.com/hosted_files/hgf20/e2/HyperledgerFabric101-HGF2020.pdf
-** DONE Truffle Con 2019 - Keynote Live Demo of Truffle Petshop backed by Hyperledger Fabric EVM Chaincode
-CLOSED: [2019-08-03 Sat 09:40]
+
+** DONE Denver Block chain Week <2019-09-30 Mon>--<2019-10-03 Thu> :conference:workshop:blockchain:hyperledger:
+CLOSED: [2019-10-01 Tue 08:00]
 :properties:
-:export_file_name: trufflecon-2019
+:export_file_name: denverblockchainweek-2019
 :end:
+https://denverblockchainweek.com/
 
-https://www.youtube.com/watch?v=0F9P9PEeHPQ
+*** kickoff event
+I spoke on hyperleder fabric and IBM open source contributions
+https://www.eventbrite.com/e/kickoff-to-denver-blockchain-week-at-cu-tickets-73003227619
 
-The recording did not catch the screen, so here is a
-backup demonstration video
-https://www.youtube.com/watch?v=YWjVRXeqf1g
+**** Event DescriptionDate and time
+Mon, September 30, 2019
+5:30 PM – 7:30 PM MDT
 
-https://sched.co/SlYV
+Location
+Wolf Law School, Room 207, University of Colorado
+2450 Kittredge Loop Road
+Boulder, CO 80309
 
-This was surprsingly eventful due to thunderstorms up and down the west coast interfering with air travel.
+Join CU and IBM in Boulder for a presentation around the Hyperledger Workshop and Boot Camp that will be part of the Denver Blockchain Week.
+About this event
+To help kick off Denver Blockchain Week and build-up to the Global Blockchain Summit, the University of Colorado Blockchain Alliance is excited to announce that IBM will be coming to the University of Colorado Boulder to provide a guided tour of the IBM Blockchain platform led by their technical experts and get your questions answered by IBM Blockchain leaders.
 
-** DONE Open Source Summit China 2019 :conference:blockchain:hyperledger:
-CLOSED: [2019-06-26 Wed 11:20]
-:properties:
-:export_file_name: oss-china-2019
-:end:
+Free parking available at the law school after 5 p.m.
 
-https://kccncosschn19eng.sched.com/
+The Global Blockchain Summit is the cornerstone of Denver Blockchain Week, a gathering of experts from around the country sharing knowledge, tips, trends, and insights about Blockchain, a breakthrough technology that enables the trusted digital registration & exchange of just about anything. It will be a chance for the newcomer to learn the history and basics of this emerging technology, and for the familiar to learn more about its current and future applications. Money, music, health records, car titles, certificates, company ownership, deeds, & digital identities are just a few options. The format will be less traditional than a typical conference. There will be large group presentations, small group lectures, lightning round discussions as well as time to interact with others in the field. We are striving to make this the most valuable Global Blockchain Summit for you, the participant. We have an emphasis on Global Women in Blockchain, equality, and diversity for the 2019 Summit.
 
-https://kccncosschn19eng.sched.com/event/NrvR/creating-your-first-smart-contract-on-hyperledger-fabric-swetha-repakula-morgan-bauer-ibm?iframe=no
+*** two day workshop
+https://www.eventbrite.com/e/hyperledger-fabric-bootcamp-tickets-71933845067
 
-https://static.sched.com/hosted_files/kccncosschn19eng/67/OSSChina2019.pdf
+**** prompt
+Join Hyperledger and IBM ambassadors as we explore Hyperledger in an intensive workshop.
+About this event
+What is a Bootcamp/Workshop?
 
-https://sched.co/NrvR
+A bootcamp/workshop is where we help get community members up to speed on how to contribute. Most of the participants are fairly new and we understand that contributing to your first project can be daunting. This process takes the fear out of the process. For existing contributors and maintainer, this is the ideal place to recruit more help for your project or group.
 
-** DONE Open Source Summit Japan 2019 :conference:blockchain:hyperledger:
-CLOSED: [2019-07-19 Fri 11:00]
-:properties:
-:export_file_name: oss-japan-2019
-:end:
+Who should attend and why?
 
-When one thinks of blockchain, the technologies that come to mind are Bitcoin, and Ethereum.
-Much of the knowledge has been focused on public networks,
-and less is known about the permissioned blockchain platforms out there like Hyperledger Fabric.
-Fabric is an open source blockchain platform that has been designed for corporate use cases.
-Morgan and Swetha will go through the architecture of Hyperledger Fabric detailing the transaction work flow,
-consensus mechanism and smart contract capabilities.
-Attendees will leave with knowledge about the Hyperledger Consortium as well as details into the Fabric platform.
+Anyone that wants to contribute. This includes: developers, designers, writers, organizers, artists, and of course project managers. Anyone that needs contributions. There isn't a better place to recruit and get to know new participants. Don't limit yourself to thinking the only contributions you need at first are code! Most contributors start out by fixing documentation and creating or flushing our bug reports. Then they often move to fixing small bugs before making larger contributions. Also an OSS community doesn't thrive if it isn't diverse. You need writers, designers, and project managers etc. Include them in your plans.
 
-https://ossalsjp19.sched.com/event/OVt3/hyperledger-fabric-101-permissioned-blockchain-platforms-swetha-repakula-morgan-bauer-ibm?iframe=no&w=100%&sidebar=yes&bg=no
+What to bring?
 
-https://sched.co/OVt3
+Laptop, power cord and comfortable clothing. This hands-on workshop requires several gigabytes of downloads to participate. Please go to the following link and complete the `Prerequisites` Section which asks you to install Docker and Node, as well as download a git code repository and run a script to pull the required docker images.
+
+https://github.com/swetharepakula/Fabric101Workshop
+
+Day One - Tuesday, October 1st
+8 a.m. - 9 a.m. - Registration and Continental Breakfast
+9 a.m. - IBM Blockchain Platform & Multicloud Strategy Presentation
+9:30 a.m. - Everyone gets an LFID, IBM Credentials and adds their name to the wiki
+9:45 a.m. - VS Code Overview and Presentation
+10:30 a.m. - Coffee and Group Pic
+10:30 a.m. - 12:30 p.m. - Workshop Begins - Build a Smart Contract and Deploy it Locally
+Noon - 1 p.m. - Lunch Break
+1 p.m. - 3:30 p.m. - Working Sessions
+4 p.m. - 6 p.m. - Presentation and Reception provided by Messner Reeves
+
+Day Two - Wednesday, October 2nd
+8 a.m. - 9 a.m. - Registration and Continental Breakfast
+9 a.m. - How did it go yesterday?
+9:15 a.m. - IBM Enterprise Blockchain Presentation
+10 a.m. - Sessions
+Noon - 1 p.m. - Lunch Break
+1 p.m. - 3 p.m. - Sessions
+3 p.m. - Remind everyone to get their changes posted for approval & everyone talks about accomplishments
+4 p.m. - 6 p.m. - Presentation and Reception provided by Husch Blackwell @ The Commons on Champa
+
+Date and time
+Tue, Oct 1, 2019, 8:00 AM –
+Wed, Oct 2, 2019, 4:00 PM MDT
+
+Location
+Resolution Research & Marketing, Inc.®
+490 South Santa Fe Drive
+#Unit E
+Denver, CO 80223
+
+*** local meetup
+https://www.eventbrite.com/e/a-lign-denver-blockchain-week-event-tickets-71952555029
+
+**** prompt
+Join A-LIGN in their new Denver office for Happy Hour.
+Join A-LIGN’s CTO, Gene Geiger and the A-LIGN team for an evening of networking, food and Blockchain discussion with industry professionals at our new Denver office. After a brief presentation, connect with other industry pros – complete with a happy-hour reception stocked with snacks and drinks. Space is limited, RSVP today!
+
+Date and time
+Wed, October 2, 2019
+5:00 PM – 7:00 PM MDT
+
+Location
+A-LIGN Denver I INDUSTRY Office
+3001 Brighton Blvd
+Suite 200
+Denver, CO 80216
+
+*** mini conference
+Learned about besu for the first time.
+
+https://globalblockchainsummit.com/ Oct 3&4 only went the first day.
+They had funky blockchain themed cocktails.
 
 ** DONE Open Source Summit North America 2019 :conference:blockchain:hyperledger:
 CLOSED: [2019-08-23 Fri 14:25]
@@ -253,19 +222,53 @@ https://sched.co/PUQG
 
 https://static.sched.com/hosted_files/ossna19/e5/HyperledgerFabricOSS2019NA.pdf
 
-
-** DONE Digital Developer Conference - Open Source Contributor’s Conference: Become a Kubernetes contributor - Git & Github :conference:digital__conference:
-CLOSED: [2020-09-29 Tue 22:31]
+** DONE Truffle Con 2019 - Keynote Live Demo of Truffle Petshop backed by Hyperledger Fabric EVM Chaincode
+CLOSED: [2019-08-03 Sat 09:40]
 :properties:
-:export_file_name: ibm-git-and-github
+:export_file_name: trufflecon-2019
 :end:
 
-https://developer.ibm.com/conferences/oscc_become_a_kubernetes_contributor/
+https://www.youtube.com/watch?v=0F9P9PEeHPQ
 
-https://developer.ibm.com/conferences/oscc_become_a_kubernetes_contributor/git_and_github/
+The recording did not catch the screen, so here is a
+backup demonstration video
+https://www.youtube.com/watch?v=YWjVRXeqf1g
 
-As an aside, the 'IBM Developer' website was previously known as 'IBM DeveloperWorks', which I found to be a useful resource over time, especially during University days.
-I am not sure I ever had a goal of being published on DeveloperWorks, but I find it very cool to have achieved it.
+https://sched.co/SlYV
+
+This was surprsingly eventful due to thunderstorms up and down the west coast interfering with air travel.
+
+** DONE Open Source Summit Japan 2019 :conference:blockchain:hyperledger:
+CLOSED: [2019-07-19 Fri 11:00]
+:properties:
+:export_file_name: oss-japan-2019
+:end:
+
+When one thinks of blockchain, the technologies that come to mind are Bitcoin, and Ethereum.
+Much of the knowledge has been focused on public networks,
+and less is known about the permissioned blockchain platforms out there like Hyperledger Fabric.
+Fabric is an open source blockchain platform that has been designed for corporate use cases.
+Morgan and Swetha will go through the architecture of Hyperledger Fabric detailing the transaction work flow,
+consensus mechanism and smart contract capabilities.
+Attendees will leave with knowledge about the Hyperledger Consortium as well as details into the Fabric platform.
+
+https://ossalsjp19.sched.com/event/OVt3/hyperledger-fabric-101-permissioned-blockchain-platforms-swetha-repakula-morgan-bauer-ibm?iframe=no&w=100%&sidebar=yes&bg=no
+
+https://sched.co/OVt3
+
+** DONE Open Source Summit China 2019     :conference:blockchain:hyperledger:
+CLOSED: [2019-06-26 Wed 11:20]
+:properties:
+:export_file_name: oss-china-2019
+:end:
+
+https://kccncosschn19eng.sched.com/
+
+https://kccncosschn19eng.sched.com/event/NrvR/creating-your-first-smart-contract-on-hyperledger-fabric-swetha-repakula-morgan-bauer-ibm?iframe=no
+
+https://static.sched.com/hosted_files/kccncosschn19eng/67/OSSChina2019.pdf
+
+https://sched.co/NrvR
 
 ** DONE ApacheCon Las Vegas - OpenWhisk Bootcamp       :conference:container:
 CLOSED: [2019-09-09 Mon 09:00]
@@ -290,7 +293,6 @@ Starting with getting the development environment set up, it’ll move onto crea
 
 Welcome to the future of cloud development, you’ll never want to manage another server again!
 
-
 ** DONE CCOSS - Cumbre de Contribuidores de Open Source Software - Guadalajara, Mexico :conference:blockchain:hyperledger:
 CLOSED: [2019-09-15 Sun 10:35]
 :properties:
@@ -302,8 +304,94 @@ I met many talented developers at [[https://ccoss.org/][the first Cumbre de Cont
 Recorded session https://www.youtube.com/watch?v=xja5Gl8tcco
 A tweet https://mobile.twitter.com/ibmhb/status/1172887048618938368
 
+** DONE CloudFoundry Summit EU 2018
+CLOSED: [2018-10-11 Thu 15:30]
+:properties:
+:export_file_name: cfeu-2018
+:end:
+
+https://www.youtube.com/watch?v=vMERgcYmzX4
+https://sched.co/FRyj
+
+*** Prompt
+The winners of the 2018 CF Summit Boston Hackathon are back discussing the details of their winning hackathon project - the BlockHead broker. BlockHead is a dedicated service broker developed based on the Open Service Broker (OSB) API that allows for the creation and deployment of smart contracts through creation and binding of services in Cloud Foundry. Developing smart contracts is difficult. The numerous steps of having to spin up a dedicated node, creating an account, compiling the smart contract, deploying the contract, and then binding to the contract through the generated interface make it hard for the average developer to easily build and test their distributed blockchain apps (dApps). We will demonstrate how the use of the BlockHead broker significantly facilitates the process of deploying and binding to smart contracts and helps developers focus on developing their web applications. Through integration with PaaS platforms such as Kubernetes and Cloud Foundry, developers can benefit from all the great features of a PaaS platform, including scalability promises , resiliency, etc.
+
+** DONE ApacheCon NA 2018 - Montreal, Canada
+CLOSED: [2018-09-22 Sat 14:22]
+:properties:
+:export_file_name: acna-2018
+:end:
+Comparisons of Cloud Native Communities
+
+https://feathercast.apache.org/2018/09/26/comparisons-of-cloud-native-communities-morgan-bauer/
+
+An Official Event Photo stream https://photos.apachecon.com/?/category/3
+
+In addition I manned the booth.
+
+*** CFP Submission
+Day by day, the number of open source projects continues to increase. Each project has unique communities and practice different developmentmethodologies. This talk will focus on the Docker, Kubernetes and Cloud Foundry cultures and outline their main differences and commonalities. The projects have different review processes from the pair programming model to the LGTM process, an interesting artifact of github. Becoming a committer on CF relies on the Dojo, while Docker establishes a meritocracy of peers and Kubernetes behaves similarly with individual sponsors.
+
+Morgan will share his journey of becoming a maintainer on the core Docker Engine and a founding member of the Kubernetes Service Catalog. Swetha will tell her story of becoming a contributor on the Diego team and what she has learnt from Cloud Foundry. By sharing their experiences, they hope to encourage others to participate.
+
+**** Mini Description:
+Learn about cloud native open source projects, namely Kubernetes, Docker, and Cloud Foundry, and their development methodologies, cultures, communities.
+
+**** What Audience Will Gain:
+The audience will leave the talk with a better understanding of different cloud native communities and their respective cultures. Specifically how open source projects can be governed, developed and collaborated on. The attendees will become better informed and have the ability to be more involved with open source software development.
+
+**** Benefits to the Ecosystem:
+We hope by informing engineering managers and developers about how open source technologies are governed, and developed they will be better prepared to choose open source projects and effectively contribute to them. The goal is to increase participation in open source development.
+
+** DONE Kubecon EU 2018
+CLOSED: [2018-05-04 Fri 15:35]
+:properties:
+:export_file_name: kceu-2018
+:end:
+
+***  Building a Fault-Tolerant Resources Controller on Kubernetes - Morgan Bauer & Srinivas Brahmaroutu
+https://kccnceu18.sched.com/event/DqvS/building-a-fault-tolerant-custom-resources-controller-on-kubernetes-morgan-bauer-srinivas-brahmaroutu-ibm-corp-intermediate-skill-level-slides-attached
+
+https://schd.ws/hosted_files/kccnceu18/3b/CRDDeployments.pdf﻿
+
+https://www.youtube.com/watch?v=v2gAcKKDf9Y
+
+*** SIG Service-Catalog Deep Dive – Doug Davis, Michael Kibbe & Morgan Bauer
+
+https://www.youtube.com/watch?v=knKSSKMkdHY
+
+ SIG Service-Catalog Deep Dive – Doug Davis, Michael Kibbe, Google, & Morgan Bauer, IBM (Intermediate Skill Level) In the "SIG Service-Catalog Intro" session we provided an overview of the Open Service Broker API and the Kubernetes implementation being developed by the Service Catalog SIG. With that background, this session will go into some of the challenges we faced in making it a reality. Whether it was because we were trying to use bleeding edge features of K8s, or trying to align very radically different processing models between K8s and other OSB API Platforms, our SIG has had an interesting time trying to navigate these waters. Come learn about these these challenges and how we've chosen to solve them.
+
+** DONE CF Summit NA 2018
+CLOSED: [2018-04-20 Fri 15:40]
+:properties:
+:export_file_name: cfna-2018
+:end:
+
+Also participated in the hackathon and won with the idea of the blockchain service broker, which was later developed into a cloudfoundry incubator project, with progress demonstrated at the following CF Summit EU
+
+*** Open Service Brokers for the CF Container Runtime - Jonathan Berkhahn & Morgan Bauer, IBM
+
+https://www.youtube.com/watch?v=tK2XIhdiVm4
+
+The Open Service Broker API is an open standard based on the Cloud
+Foundry service broker model. The Cloud Foundry Container Runtime is
+backed by Kubernetes, a container orchestrator. The Kubernetes Service
+Catalog project is an implementation of the platform side of the
+OSBAPI running as part of Kubernetes. Come learn how to utilize the
+same brokers and services you use for applications running on CF for
+containers hosted by the new container runtime. We'll briefly cover
+the service broker architecture before demoing the set-up and
+operation of the Service Catalog on top of the CF Container Runtime
+and going over best practices for writing brokers to ensure that they
+are multi-platform compatible.
+
 ** DONE NYC OpenCamps
 CLOSED: [2017-11-18 Sat 13:30]
+:properties:
+:export_file_name: nyc-opencamps-2017
+:end:
+
 Comparisons of Cloud Native Communities - with Swetha Repakula
 
 Kubernetes Camp | Sat. Nov. 18 , 01:00pm - 01:30pm in Nolita Hub Room (on 17th Floor)
@@ -400,9 +488,16 @@ ext4 fs reserves 5% of free space for root, which on a large disk is hundreds of
 tune with `tune2fs -m 1 /dev/sda1` etc. it does take fractional decimal points.
 
 
-** <2020-08-02 Sun 17:00>
+** DONE service to get the ip I am accessing from
+CLOSED: [2020-08-02 Sun 17:00]
 https://checkip.amazonaws.com/
+
+I think maybe a friend suggested this.
+
+I want to be able to set dns entries automatically from my home connection.
+
 ** download and import a github user gpg key
+
 little script to pull a gpg key and import it
 
 
@@ -550,15 +645,6 @@ After that, next time commit is invoked, verbose will still be set. (You do not 
 The actual default is saved in a transient/ directory in .emacs.d/.
 
 See the transient manual https://magit.vc/manual/transient.html#Saving-Values
-
-* stuff I did
-
-** TODO Denver Block chain Week <2019-09-30 Mon>--<2019-10-03 Thu>
-https://www.eventbrite.com/e/kickoff-to-denver-blockchain-week-at-cu-tickets-73003227619#
-https://denverblockchainweek.com/
-https://www.eventbrite.com/e/hyperledger-fabric-bootcamp-tickets-71933845067#
-https://www.eventbrite.com/e/a-lign-denver-blockchain-week-event-tickets-71952555029#
-https://globalblockchainsummit.com/ Oct 3&4 only went the one day, I'm pretty sure. Some kind of funky cocktail.
 
 * DONE Net Present Value Calculation :finance:
 CLOSED: [2021-06-15 Tue 22:12]
