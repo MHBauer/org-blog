@@ -434,6 +434,19 @@ The demonstration will start with two applications bound to the same service bro
 * TIL - Today I Learned :TIL:
 I want to write down what I've learned so I don't forget and include where I learned it to know what I use as sources.
 
+** DONE Kindle Notes in =My Clippings.txt=
+CLOSED: [2021-06-25 Fri 13:35]
+:properties:
+:export_file_name: kindle-clippings
+:end:
+A kindle could be reasonably used to take notes. The notes taken are available in the =My Clippings.txt= file under =documents=.
+The whole path from the root of the kindle filesystem is =/documents/My Clippings.txt=.
+
+A question remains in my mind of the behavior of the notes.
+ - Is it a log? Append-only?
+ - If I remove a book, do the notes go, or stay?
+ - If I re-download a book, do the notes become associated?
+
 ** DONE OBS Capture Transform Settings
 CLOSED: [2021-05-27 Thu 17:47]
 :properties:
