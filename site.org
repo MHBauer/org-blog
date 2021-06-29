@@ -434,6 +434,26 @@ The demonstration will start with two applications bound to the same service bro
 * TIL - Today I Learned :TIL:
 I want to write down what I've learned so I don't forget and include where I learned it to know what I use as sources.
 
+** DONE Miso Soup Tricks
+CLOSED: [2021-06-27 Sun 20:45]
+:properties:
+:export_file_name: miso-soup-tricks
+:end:
+
+Two tips while dinner was being prepared.
+
+*** Use a sieve or mesh strainer to disolve miso
+
+Miso can be difficult to fully dissolve as it will clump up and physical agitation only goes so far.
+
+*** Use Nameko Mushrooms to thicken soup - ナメコ
+
+I didn't see them before they were cooked.
+
+https://en.wikipedia.org/wiki/Pholiota_microspora
+
+Instead of the watery broth, it was silky with a slightly higher viscosity.
+
 ** DONE Kindle Notes in =My Clippings.txt=
 CLOSED: [2021-06-25 Fri 13:35]
 :properties:
