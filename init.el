@@ -4,7 +4,6 @@
 
 ;; add package archives we want
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("org" . "http://orgmode.org/elpa/")
                          ("melpa" . "http://melpa.org/packages/")))
 
 (package-initialize)
@@ -16,6 +15,8 @@
 
 (eval-when-compile
   (require 'use-package))
+
+(use-package org)
 
 (use-package ox-hugo
   :ensure t
