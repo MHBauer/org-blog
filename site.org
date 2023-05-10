@@ -6,7 +6,7 @@
 
 * Website
 
-"The postings on this site are my own and do not necessarily represent IBM's positions, strategies, or opinions."
+"The postings on this site are my own and do not represent my employers positions, strategies, or opinions."
 
 ** DONE Morgan Bauer's Work Resume
 CLOSED: [2021-01-15 Fri 12:50]
