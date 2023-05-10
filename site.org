@@ -739,6 +739,18 @@ The actual default is saved in a transient/ directory in .emacs.d/.
 
 See the transient manual https://magit.vc/manual/transient.html#Saving-Values
 
+* Media
+
+** DONE No Time To Die                                         :movie:review:
+CLOSED: [2021-10-04 Mon 19:00]
+:properties:
+:export_file_name: james-bond-no-time-to-die
+:end:
+
+=James Bond Will Return=
+
+Well not that one, he got blown up.
+
 * DONE Net Present Value Calculation :finance:
 CLOSED: [2021-06-15 Tue 22:12]
 :properties:
