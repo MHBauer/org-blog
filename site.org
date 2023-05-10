@@ -459,6 +459,25 @@ https://opensource.apple.com/source/zsh/zsh-30/zsh/Functions/Misc/zmv.auto.html
 
 https://zsh.sourceforge.io/Doc/Release/Arithmetic-Evaluation.html
 
+** DONE update org mode
+CLOSED: [2022-01-10 Mon 23:55]
+:properties:
+:export_file_name: issue-when-updating-org-mode
+:end:
+
+messages of org 9.6 being on elpa only.
+
+okay, but I've got this apparently stange install using 'org-plus-contrib'
+
+I've got to switch to org from elpa,
+but I need the unmaintained contrib as well which has been split into a separate package
+and repo as org-contrib in the nongnu elpa,
+so I have to first add the nongnu elpa archive at elpa.nongnu.org/nongnu/
+in contrast to elpa.gnu.org/packages (they really want you to know it's not gnu.)
+
+also be sure to delete the org-plus-contrib directories in the elpa directory under dot-emacs
+or you'll always load the old version.
+
 ** DONE Miso Soup Tricks
 CLOSED: [2021-06-27 Sun 20:45]
 :properties:
