@@ -791,7 +791,23 @@ A more reasonable calculation would have perhaps a 2.5% payment fee per installm
 
 
 # https://www.omnicalculator.com/finance/perpetuity this one is pretty good with lockable pieces for PMT and PV
+* My Tesla Car Experience :tesla:
+:properties:
+:export_file_name: my-tesla-car-experience
+:end:
 
+** Charging Issues - Since Approximately June 2022
+
+*** svce gridshift set to 31c, new range is 34c to 41c.
+
+* My Tesla Solar Experience :tesla:
+:properties:
+:export_file_name: my-tesla-solar-experience
+:end:
+
+* TODO golang tools
+
+golangci-lint
 
 * TODO Blogs I admire
  - https://eli.thegreenplace.net/ I've probably been reading it on and off for ten years, and I wish I had started blogging back then as well. Started while looking at the sicp exercises. Wish to post / had posted my own...
