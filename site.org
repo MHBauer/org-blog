@@ -445,6 +445,20 @@ The demonstration will start with two applications bound to the same service bro
 * TIL - Today I Learned :TIL:
 I want to write down what I've learned so I don't forget and include where I learned it to know what I use as sources.
 
+** DONE use zmv from zsh
+CLOSED: [2023-01-05 Thu 21:43]
+:properties:
+:export_file_name: zmv-renamer
+:end:
+
+https://blog.smittytone.net/2021/04/03/how-to-use-zmv-z-shell-super-smart-file-renamer/
+
+https://zsh.sourceforge.io/Doc/Release/Expansion.html#Arithmetic-Expansion to do addion subtraction
+
+https://opensource.apple.com/source/zsh/zsh-30/zsh/Functions/Misc/zmv.auto.html
+
+https://zsh.sourceforge.io/Doc/Release/Arithmetic-Evaluation.html
+
 ** DONE Miso Soup Tricks
 CLOSED: [2021-06-27 Sun 20:45]
 :properties:
