@@ -74,7 +74,7 @@ https://developer.ibm.com/conferences/oscc_become_a_kubernetes_contributor/git_a
 As an aside, the 'IBM Developer' website was previously known as 'IBM DeveloperWorks', which I found to be a useful resource over time, especially during University days.
 I am not sure I ever had a goal of being published on DeveloperWorks, but I find it very cool to have achieved it.
 
-** DONE KubeCon EU 2020
+** DONE KubeCon EU 2020 :conference:kubecon:kubernetes:
 CLOSED: [2020-08-19 Wed 17:40]
 :properties:
 :export_file_name: kceu-2020
@@ -370,7 +370,7 @@ The audience will leave the talk with a better understanding of different cloud 
 **** Benefits to the Ecosystem:
 We hope by informing engineering managers and developers about how open source technologies are governed, and developed they will be better prepared to choose open source projects and effectively contribute to them. The goal is to increase participation in open source development.
 
-** DONE Kubecon EU 2018
+** DONE Kubecon EU 2018 :conference:kubecon:kubernetes:
 CLOSED: [2018-05-04 Fri 15:35]
 :properties:
 :export_file_name: kceu-2018
