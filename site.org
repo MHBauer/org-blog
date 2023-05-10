@@ -9,14 +9,25 @@
 "The postings on this site are my own and do not represent my employers positions, strategies, or opinions."
 
 ** DONE Morgan Bauer's Work Resume
-CLOSED: [2021-01-15 Fri 12:50]
+CLOSED: [2023-05-05 Fri 00:00]
 :properties:
 :export_file_name: 2021-01-15-resume
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :aliases '("/urn-uuid-87c17f82-5b10-41b6-8bf1-8a00477ad2cc")
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :url "resume"
 :end:
 
-Morgan is an Open Source Software (OSS) Engineer for IBM working on Kubernetes. Morgan has extensive experience in the creation of open source software, containerized software development and complex system architecture. Morgan also enjoys working with cross-functional teams, and presenting at conferences and meetups.
+
+Morgan bridges the gap between theory and practice for containers and Kubernetes,
+by bringing not only theoretical knowledge upstream open source experience on the projects,
+but also practical application of that knowledge from running multiple Kubernetes clusters with over 1000 nodes.
+
+Morgan is also an Open Source Software (OSS) Engineer,
+previously working for IBM on Kubernetes,
+Docker and the surrounding container technologies.
+He has extensive experience in the creation of open source software,
+containerized software development and complex system architecture.
+Morgan also enjoys working with cross-functional teams,
+and presenting at conferences and meetups
 
 *** [[/Morgan-Bauer-OpenSourceEngineer-resume.pdf][CLICK HERE FOR RESUME AS PDF]]
 
