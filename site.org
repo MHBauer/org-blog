@@ -16,7 +16,6 @@ CLOSED: [2023-05-05 Fri 00:00]
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :url "resume"
 :end:
 
-
 Morgan bridges the gap between theory and practice for containers and Kubernetes,
 by bringing not only theoretical knowledge upstream open source experience on the projects,
 but also practical application of that knowledge from running multiple Kubernetes clusters with over 1000 nodes.
@@ -37,7 +36,7 @@ Linkedin: [[https://www.linkedin.com/in/morganbauer/][@morganbauer]]
 
 [[https://web.archive.org/web/20200922022132/https://developer.ibm.com/profiles/mbauer/][IBM Developer Profile]]
 
-I have a [[/Morgan-Bauer-OpenSourceEngineer-resume.pdf][Resume]] and [[https://www.linkedin.com/in/morganbauer/][linkedin account @morganbauer]].
+HackerRank: [[https://www.hackerrank.com/MHBauer][MHBauer]]
 
 I enjoy working in open source software communities. My most recent experience is heavily based in *[[https://golang.org/][golang]]*, but I would like to professionally work with [[https://www.rust-lang.org/][rust]].
 
