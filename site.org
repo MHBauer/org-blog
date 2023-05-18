@@ -38,6 +38,8 @@ Linkedin: [[https://www.linkedin.com/in/morganbauer/][@morganbauer]]
 
 HackerRank: [[https://www.hackerrank.com/MHBauer][MHBauer]]
 
+ProjectEuler: [[https://projecteuler.net/profile/mohaba.png]]
+
 I enjoy working in open source software communities. My most recent experience is heavily based in *[[https://golang.org/][golang]]*, but I would like to professionally work with [[https://www.rust-lang.org/][rust]].
 
 I have been fortunate enough to be accepted to speak at many public conferences all over the world, as well as internally within IBM. These presentations have not only been short conference talks, but also multi-hour workshops to deep dive into the open source software I have worked directly on, as well as basic education on developer tooling, such as git & docker.
