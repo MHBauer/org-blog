@@ -837,6 +837,52 @@ from amazon
 </video>
 #+end_export
 
+* 360 Tests
+Create a partial template that takes the org link (which should be converted during export) and inject that into the template.
+
+Additionally, add some kind of header addition on demand to include the JS.
+
+
+** DONE LinkedIn Profile Badge
+CLOSED: [2023-05-17 Wed 16:36]
+:properties:
+:export_file_name: linkedinProfileBadge
+:end:
+
+#+BEGIN_EXPORT html
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="morganbauer" data-version="v1">
+<a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/morganbauer?trk=profile-badge">Morgan Bauer</a></div>
+              
+#+END_EXPORT
+
+** DONE Direct Image
+CLOSED: [2023-05-17 Wed 13:11]
+:properties:
+:export_file_name: direct-image-test
+:end:
+
+#+CAPTION: Three at a table, one holding a menu.
+#+NAME:   fig:daigo dinner menu
+[[file:static/japan_dinner_menu.jpg]]
+
+** DONE Panellum
+CLOSED: [2023-05-17 Wed 13:11]
+:properties:
+:export_file_name: panellum-test
+:end:
+
+#+BEGIN_EXPORT html
+<iframe width="600" height="400" style="border-style:none;" src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https://pannellum.org/images/alma.jpg"></iframe>
+#+END_EXPORT
+
+In theory I need to templatize and inject the final image location into the piece.
+
+For now, a hardcoded iframe.
+#+BEGIN_EXPORT html
+<iframe width="600" height="400" style="border-style:none;" src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https://mhbauer.com/japan_dinner_menu.jpg"></iframe>
+#+END_EXPORT
 
 * Footnotes
 ​* COMMENT Local Variables                          :ARCHIVE:
