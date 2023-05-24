@@ -742,7 +742,19 @@ See the transient manual https://magit.vc/manual/transient.html#Saving-Values
 
 * Media
 
-** DONE No Time To Die                                         :movie:review:
+** Books
+
+** Movies
+
+*** DONE Thor:Ragnarok (Thor 3)                                :movie:review:
+CLOSED: [2023-05-23 Tue 22:29]
+:properties:
+:export_file_name: thor-3
+:end:
+
+The best Marvel movie.
+
+*** DONE No Time To Die                                        :movie:review:
 CLOSED: [2021-10-04 Mon 19:00]
 :properties:
 :export_file_name: james-bond-no-time-to-die
@@ -751,6 +763,8 @@ CLOSED: [2021-10-04 Mon 19:00]
 =James Bond Will Return=
 
 Well not that one, he got blown up.
+
+** Music
 
 * DONE Net Present Value Calculation :finance:
 CLOSED: [2021-06-15 Tue 22:12]
