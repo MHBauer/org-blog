@@ -44,7 +44,9 @@ I enjoy working in open source software communities. My most recent experience i
 
 I have been fortunate enough to be accepted to speak at many public conferences all over the world, as well as internally within IBM. These presentations have not only been short conference talks, but also multi-hour workshops to deep dive into the open source software I have worked directly on, as well as basic education on developer tooling, such as git & docker.
 
-[[/resume-text.html][resume as text web page]]
+[[https://developer.ibm.com/conferences/oscc_become_a_kubernetes_contributor/git_and_github/][IBM Hosted Class on Using git with GitHub]]
+
+[[/resume-text.html][Resume as plain text web page]]
 
 *** Conference Talks
 [[/presentations][See the record of public conference talks I have given]]
