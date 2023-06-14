@@ -57,6 +57,19 @@ All the public sessions collected in [[https://www.youtube.com/watch?v=v7ZQcu1dw
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL-yrdTisOWwUSfEUaKN4XarSa1YOaee6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #+end_export
 
+* Posts
+** DONE The reddit blackouts
+CLOSED: [2023-06-14 Wed 12:05]
+:properties:
+:export_file_name: reddit-blackout
+:end:
+
+I'll make sure to post here or some federated service rather than to
+reddit or stackexchange in the future. Locking things up is not in the
+best interest of the public.
+
+** Is this still a good time?
+
 * Presentations
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: presentations
