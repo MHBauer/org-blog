@@ -779,6 +779,30 @@ CLOSED: [2021-10-04 Mon 19:00]
 
 Well not that one, he got blown up.
 
+*** DONE  Transformers: Rise of the Beasts
+CLOSED: [2023-06-13 Tue 12:45]
+:properties:
+:export_file_name: 2023-beast-transformers
+:end:
+
+Takes place in 1994.
+
+Lots of explosions, yup.
+
+It felt weird to see the twin towers, and smoke, and maybe felt a
+little exploitative for the purpose of being in a movie.
+
+Snooze on it unless you want to see robots and explosions.
+
+**** Trailers
+Tmnt
+Indians Jones 5
+Blue beetle
+Gran turismo
+Oppenheimer
+The Flash
+Mission Impossible - part 1
+
 ** Music
 
 * DONE Net Present Value Calculation :finance:
