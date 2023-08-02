@@ -36,9 +36,8 @@ Linkedin: [[https://www.linkedin.com/in/morganbauer/][@morganbauer]]
 
 [[https://web.archive.org/web/20200922022132/https://developer.ibm.com/profiles/mbauer/][IBM Developer Profile]]
 
-HackerRank: [[https://www.hackerrank.com/MHBauer][MHBauer]]
 
-ProjectEuler: [[https://projecteuler.net/profile/mohaba.png]]
+
 
 I enjoy working in open source software communities. My most recent experience is heavily based in *[[https://golang.org/][golang]]*, but I would like to professionally work with [[https://www.rust-lang.org/][rust]].
 
@@ -47,6 +46,14 @@ I have been fortunate enough to be accepted to speak at many public conferences 
 [[https://developer.ibm.com/conferences/oscc_become_a_kubernetes_contributor/git_and_github/][IBM Hosted Class on Using git with GitHub]]
 
 [[/resume-text.html][Resume as plain text web page]]
+
+*** Coding Websites
+
+HackerRank: [[https://www.hackerrank.com/MHBauer][MHBauer]]
+
+ProjectEuler: [[https://projecteuler.net/profile/mohaba.png]]
+
+[[https://app.codesignal.com/profile/mhbauer][Codesignal]]
 
 *** Conference Talks
 [[/presentations][See the record of public conference talks I have given]]
