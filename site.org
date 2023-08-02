@@ -55,6 +55,11 @@ ProjectEuler: [[https://projecteuler.net/profile/mohaba.png]]
 
 [[https://app.codesignal.com/profile/mhbauer][Codesignal]]
 
+YouTube playlist of me coding.
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLLQCu3oYKdYAn1QG1iOCdTJSgtcQuMdhZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
 *** Conference Talks
 [[/presentations][See the record of public conference talks I have given]]
 
