@@ -1,4 +1,7 @@
-
+;;; package --- summary
+;;; commentary:
+;;; code:
+(print (version))
 ;; ELPA server setup
 (require 'package)
 
@@ -27,3 +30,4 @@
 
 ;; export it
 (org-hugo-export-wim-to-md :all-subtrees)
+;;; init.el ends here
