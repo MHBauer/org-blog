@@ -836,7 +836,7 @@ CLOSED: [2021-10-04 Mon 19:00]
 
 Well not that one, he got blown up.
 
-*** DONE  Transformers: Rise of the Beasts
+*** DONE  Transformers: Rise of the Beasts                     :movie:review:
 CLOSED: [2023-06-13 Tue 12:45]
 :properties:
 :export_file_name: 2023-beast-transformers
@@ -859,6 +859,19 @@ Gran turismo
 Oppenheimer
 The Flash
 Mission Impossible - part 1
+
+*** TODO Mission: Impossible Movie Series Roundup    :movie:review:
+
+Given the release of whatever part 1, I wanted to catch up and figure out what I had seen.
+
+ - MI 1996 - definitely seen it many times over the years
+ - mi2 - yup, seen it, I recall the self injection, and the john woo-isms, but not the 747 crashing. pre-9/11 probably had something to do with that.
+ - mi3 - I vaguely recall the head bombs, but not most of the rest of the movie. not the wife, anything. first showing of benji.
+ - ghost protocol - definitely seen, and didn't realize the wife was from mi3, so more evidence I hadn't seen mi3.
+ - rogue nation - I remember the big eye, I think from promotional media, along with the tom cruise strapping himself to the plane in the opening. first showing of Ilsa
+ - fallout - nope, never seen it. tom cruise broke his ankle! which I again got from promotional media. and a real high altitude jump? Oh, the white widow is the daughter of max. white widow first appears here.
+ - dead reckoning part 1 - wow, saw it in dolby cinema. amazing. who are all these characters? (white widow & brother zola, ilsa) was looking forward to it to see the return of kittridge! great car chase! mini electric car. how is alec baldwin back but not jeremy renner. very pretty and we defnitely get some 16:9 ratio from the imax in addition to the film 2.35:1, Very cool!
+
 
 ** Music
 
