@@ -994,6 +994,24 @@ For now, a hardcoded iframe.
 <iframe width="600" height="400" style="border-style:none;" src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https://mhbauer.com/japan_dinner_menu.jpg"></iframe>
 #+END_EXPORT
 
+* Tags
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: tags
+:END:
+
+** tag index
+:properties:
+:export_file_name: _index
+:end:
+
+** ferments
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: tags/ferments
+:export_file_name: _index
+:END:
+
+These are the logs about fermentation recipes attempted, and how they turned out.
+
 * Footnotes
 ​* COMMENT Local Variables                          :ARCHIVE:
 # Local Variables:
