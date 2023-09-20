@@ -70,6 +70,29 @@ All the public sessions collected in [[https://www.youtube.com/watch?v=v7ZQcu1dw
 #+end_export
 
 * Posts
+
+** DONE Lacto Fermented Red Onions
+CLOSED: [2023-09-10 Sun 13:00]
+:properties:
+:export_file_name: 2020-lacto-fermented-red-onions
+:end:
+
+Fermentation was started [2020-08-30 Sun],
+and after a few weeks put under refigeration.
+Found the full-circle cut onions at the end of August 2023.
+They were sour and well fermented,
+but definitely still edible.
+
+Recipe is 2% brine.
+That is 2% of the weight of the onions and water combined.
+Accuracy is best achieved with a scale.
+
+I don't recall which slicing direction I preferred.
+They all tasted good, but definitely some direction had better feel.
+
+#+CAPTION: The written record of 2020 lacto fermented red onions.
+[[file:/food/ferments/2020-fermented-red-onion-recipe.jpg]]
+
 ** DONE The reddit blackouts
 CLOSED: [2023-06-14 Wed 12:05]
 :properties:
