@@ -91,7 +91,7 @@ I don't recall which slicing direction I preferred.
 They all tasted good, but definitely some direction had better feel.
 
 #+CAPTION: The written record of 2020 lacto fermented red onions.
-[[file:/food/ferments/2020-fermented-red-onion-recipe.jpg]]
+[[file:static/food/ferments/2020-fermented-red-onion-recipe.jpg]]
 
 ** DONE The reddit blackouts
 CLOSED: [2023-06-14 Wed 12:05]
@@ -104,6 +104,27 @@ reddit or stackexchange in the future. Locking things up is not in the
 best interest of the public.
 
 ** Is this still a good time?
+
+* Workouts
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: workouts
+:END:
+
+** DONE September 19, 2023 - c2 wod :wod:concept2-rower:
+CLOSED: [2023-09-19 Tue 11:59]
+:properties:
+:export_file_name: 2023-09-19-workout
+:end:
+
+5 x 4 min / 1 min easy
+
+Five 4 minute pieces. One minute at light pressure between each piece.
+
+[[file:static/workouts/Untitled.png]]
+
+https://log.concept2.com/profile/1083875/log/79282813
+
+https://log.concept2.com/wod/2023-09-19/rowerg
 
 * Presentations
 :PROPERTIES:
