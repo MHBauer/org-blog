@@ -1007,6 +1007,19 @@ For now, a hardcoded iframe.
 <iframe width="600" height="400" style="border-style:none;" src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https://mhbauer.com/japan_dinner_menu.jpg"></iframe>
 #+END_EXPORT
 
+* Referrals
+
+¯\_(ツ)_/¯
+
+** Frontier Fiber Internet
+
+https://www.frontiercustomerreferral.com/submit-invitation?user_id=20113&signature=2b5cd7d8756f7143c170c5137672c1bcc8e168d57eeb3b6fb828ecf5e449f2c8
+
+You get
+ - a $50 Mastercard gift card!
+ - Amazon eero WiFi router included
+ - Expert installation at no cost
+
 * Tags
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: tags
