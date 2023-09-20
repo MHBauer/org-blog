@@ -71,7 +71,7 @@ All the public sessions collected in [[https://www.youtube.com/watch?v=v7ZQcu1dw
 
 * Posts
 
-** DONE Lacto Fermented Red Onions
+** DONE Lacto Fermented Red Onions :ferments:
 CLOSED: [2023-09-10 Sun 13:00]
 :properties:
 :export_file_name: 2020-lacto-fermented-red-onions
@@ -105,12 +105,11 @@ best interest of the public.
 
 ** Is this still a good time?
 
-* Workouts
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: workouts
-:END:
 
-** DONE September 19, 2023 - c2 wod :wod:concept2-rower:
+** Workouts
+
+
+*** DONE September 19, 2023 - c2 wod  :wod:concept2__rower:workout:
 CLOSED: [2023-09-19 Tue 11:59]
 :properties:
 :export_file_name: 2023-09-19-workout
@@ -120,11 +119,13 @@ CLOSED: [2023-09-19 Tue 11:59]
 
 Five 4 minute pieces. One minute at light pressure between each piece.
 
-[[file:static/workouts/Untitled.png]]
+[[file:static/workouts/2023-09-19-c2wod.png]]
 
 https://log.concept2.com/profile/1083875/log/79282813
 
 https://log.concept2.com/wod/2023-09-19/rowerg
+
+
 
 * Presentations
 :PROPERTIES:
