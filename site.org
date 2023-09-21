@@ -125,6 +125,44 @@ https://log.concept2.com/profile/1083875/log/79282813
 
 https://log.concept2.com/wod/2023-09-19/rowerg
 
+*** DONE September 20, 2023 - c2 sprint-8       :concept2__rower:workout:
+CLOSED: [2023-09-20 Wed 11:59]
+:properties:
+:export_file_name: 2023-09-20-workout
+:end:
+
+Sprint-8 Protocol.
+
+[[file:static/workouts/2023-09-20-c2s8.png]]
+
+https://log.concept2.com/profile/1083875/log/79318923
+
+*** DONE September 21, 2023 - c2 wod - increasing 20 calorie intervals :wod:concept2__rower:workout:
+CLOSED: [2023-09-21 Thu 11:59]
+:properties:
+:export_file_name: 2023-09-21-workout
+:end:
+
+Concept2 Workout of the day
+
+Five "calorie intervals".
+First interval - 20 cals.
+Second interval 40 cals.
+Then 60, 80 and 100.
+Two minutes at light pressure between each piece.
+
+This was a more cardio focused for me.
+
+[[file:static/workouts/2023-09-21-c2wod.png]]
+
+Intervals were pretty even, probably should have gone harder in the beginning.
+
+[[file:static/workouts/2023-09-21-c2wod-intervals.png]]
+
+https://log.concept2.com/profile/1083875/log/79349552
+
+https://log.concept2.com/wod/2023-09-21/rowerg
+
 
 
 * Presentations
