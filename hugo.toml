@@ -2,13 +2,18 @@ baseURL = "https://mhbauer.com"
 languageCode = "en-us"
 title = "Morgan Bauer's Website"
 
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 enableEmoji = true
 copyright = "Morgan Bauer"
 description = "a website for morgan to find a job"
 
 # make a menu so the site is navigable
 #sectionPagesMenu = "main"
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
 [markup.goldmark.renderer]
   unsafe= true
@@ -28,7 +33,9 @@ description = "a website for morgan to find a job"
     anonymizeIP = true
     respectDoNotTrack = true
     useSessionStorage = true
-  [privacy.twitter]
+  # [privacy.twitter]
+  #   enableDNT = true
+  [privacy.x]
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
