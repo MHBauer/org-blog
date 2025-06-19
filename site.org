@@ -93,6 +93,38 @@ They all tasted good, but definitely some direction had better feel.
 #+CAPTION: The written record of 2020 lacto fermented red onions.
 [[file:static/food/ferments/2020-fermented-red-onion-recipe.jpg]]
 
+** DONE Lacto Fermented Red Jalapeños                               :ferments:
+CLOSED: [2025-06-18 Wed 20:15]
+:properties:
+:export_file_name: 2024-lacto-fermented-red-jalapeños
+:end:
+
+This turned out really well in the end, but I can't find the notes,
+only some pictures taken during the process. I recall the original
+plan was to bring this and some onions to the upcoming 4th of July.  I
+have a photo of it fully prepared and jarred on July 6, and was away
+by July 3, so processing is estimated at July 2 at the latest.
+
+Fermentation was started [2024-06-23 Sun], at about 3PM. Thus total
+fermenting time was rather short, only about 10 days.
+
+Ingredients:
+ - 592g pepper
+ - 10g salt (a bit under 2% (10/592 = ~1.7%)
+ - I see some carrot as well.
+ - probably topped with 2% brine.
+
+Eventually, I took it out, hit it with the blender, and added some
+apple cider vinegar to taste.
+
+Rave reviews, often referred to as Red 5, or Red 40, as the vibrancy
+of the color is nearly unbelievable and thought to be enhanced in
+some way.
+
+# Ad photos of process with scale and resulting jar in fridge.
+# #+CAPTION: The written record of 2020 lacto fermented red onions.
+# [[file:static/food/ferments/2020-fermented-red-onion-recipe.jpg]]
+
 ** DONE The reddit blackouts
 CLOSED: [2023-06-14 Wed 12:05]
 :properties:
