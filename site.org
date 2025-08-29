@@ -28,7 +28,7 @@ containerized software development and complex system architecture.
 Morgan also enjoys working with cross-functional teams,
 and presenting at conferences and meetups
 
-*** [[/Morgan-Bauer-OpenSourceEngineer-resume.pdf][CLICK HERE FOR RESUME AS PDF]] Last updated 2023-05-05.
+*** [[/Morgan-Bauer-OpenSourceEngineer-resume.pdf][CLICK HERE FOR RESUME AS PDF]] Last updated <2025-08-28 Thu>.
 
 Github: [[https://github.com/MHBauer/][@MHBauer]]
 
